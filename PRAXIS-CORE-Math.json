@@ -1,425 +1,216 @@
-[
-  {
-    "domain_title": "Domain 1: Number & Quantity (Approx. 36%)",
-    "topics": [
-      {
-        "topic": "Ordering Rational Numbers (Fractions, Decimals & Integers)",
-        "resources": [
-          {
-            "title": "The Organic Chemistry Tutor - Ordering Rational Numbers",
-            "url": "https://www.youtube.com/watch?v=JQJKy6Ovlh8",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "MathCentre - Decimals & Ordering Concept Guide",
-            "url": "https://www.mathcentre.ac.uk/resources/uploaded/mc-bus-decimals-2009-1.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Scientific Notation: Converting & Ordering",
-        "resources": [
-          {
-            "title": "The Organic Chemistry Tutor - Scientific Notation Introduction",
-            "url": "https://www.youtube.com/watch?v=ZtB0vHQqpNY",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "Mometrix - Scientific Notation Concept Guide",
-            "url": "https://www.mometrix.com/academy/scientific-notation/print/",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Converting Fractions, Decimals, and Percents",
-        "resources": [
-          {
-            "title": "Math Antics - Converting Base-10 Fractions",
-            "url": "https://www.youtube.com/watch?v=_jcW-ZGPHKM",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "CUNY - Conversion Guide (Fractions/Decimals/Percents)",
-            "url": "https://www.bmcc.cuny.edu/wp-content/uploads/ported/lrc/studyskills/fact_sheets/math/convert_fractions_decimals_percents.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Operations with Mixed Numbers",
-        "resources": [
-          {
-            "title": "Math Antics - Mixed Numbers",
-            "url": "https://www.youtube.com/watch?v=pynfj2bYMms",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "OpenStax Prealgebra - Add/Subtract Mixed Numbers",
-            "url": "https://openstax.org/books/prealgebra-2e/pages/4-6-add-and-subtract-mixed-numbers",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Ratios and Unit Rates (Best Buy Problems)",
-        "resources": [
-          {
-            "title": "Math Antics - Ratios and Rates",
-            "url": "https://www.youtube.com/watch?v=RQ2nYUBVvqI",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "MathCentre - Ratio and Proportion Leaflet",
-            "url": "https://www.mathcentre.ac.uk/resources/uploaded/mc-ty-ratio-2009-1.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Solving Proportions & Scale Drawings",
-        "resources": [
-          {
-            "title": "The Organic Chemistry Tutor - Solving Proportions",
-            "url": "https://www.youtube.com/watch?v=GO5ajwbFqvc",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "OpenStax - Proportions and Similar Figures",
-            "url": "https://openstax.org/books/prealgebra-2e/pages/6-5-solve-proportions-and-their-applications",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Percent Word Problems (Tax, Tip, Discount)",
-        "resources": [
-          {
-            "title": "Math Antics - Percent Word Problems",
-            "url": "https://www.youtube.com/watch?v=JeVSmq1Nrpw",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "CIMT - Percentages and Applications Guide",
-            "url": "https://www.cimt.org.uk/projects/mepres/book8/bk8_11.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Dimensional Analysis & Unit Conversion",
-        "resources": [
-          {
-            "title": "The Organic Chemistry Tutor - Unit Conversion & Dim Analysis",
-            "url": "https://www.youtube.com/watch?v=HRe1whGRcre",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "US Army - Math Concepts: Dimensional Analysis Workbook",
-            "url": "https://usacac.army.mil/sites/default/files/publications/14-06_0.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "domain_title": "Domain 2: Data Interpretation, Statistics & Probability (Approx. 32%)",
-    "topics": [
-      {
-        "topic": "Reading Bar, Line, and Double Bar Graphs",
-        "resources": [
-          {
-            "title": "Math Antics - Data and Graphs",
-            "url": "https://www.youtube.com/watch?v=lAOobD7y9gA",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "CUNY - Interpreting Graphs Guide",
-            "url": "https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/about/administration/offices/registrar/resources/Interpreting-Graphs.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Interpreting Histograms & Stem-and-Leaf Plots",
-        "resources": [
-          {
-            "title": "Khan Academy - Histograms",
-            "url": "https://www.youtube.com/watch?v=gT8U5Z9m7s4",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "LibreTexts - Stem and Leaf Plots Concept",
-            "url": "https://stats.libretexts.org/@api/deki/files/540/2.3_Stem_and_Leaf_Plots.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Scatter Plots & Correlation (Positive/Negative)",
-        "resources": [
-          {
-            "title": "The Organic Chemistry Tutor - Scatter Plots",
-            "url": "https://www.youtube.com/watch?v=4OpQ2Qz7pTQ",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "OpenStax - Scatter Plots and Trends",
-            "url": "https://openstax.org/books/elementary-algebra-2e/pages/4-3-graph-with-intercepts",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Central Tendency: Mean, Median, Mode & Range",
-        "resources": [
-          {
-            "title": "Math Antics - Mean, Median and Mode",
-            "url": "https://www.youtube.com/watch?v=B1HEzNTGeZ4",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "MathCentre - Statistical Measures Leaflet",
-            "url": "https://www.mathcentre.ac.uk/resources/uploaded/mc-ty-statmeasures-2009-1.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Spread, Distribution & Outliers",
-        "resources": [
-          {
-            "title": "Khan Academy - Standard Deviation Intuition",
-            "url": "https://www.youtube.com/watch?v=HvDqbzu0i0E",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "StatsTutor - Variance and Standard Deviation",
-            "url": "https://www.statstutor.ac.uk/resources/uploaded/variance.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Simple & Independent Probability",
-        "resources": [
-          {
-            "title": "Math Antics - Basic Probability",
-            "url": "https://www.youtube.com/watch?v=KzfWUEJjG18",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "MathCentre - Probability Concepts Leaflet",
-            "url": "https://www.mathcentre.ac.uk/resources/uploaded/mc-ty-probability-2009-1.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Venn Diagrams & Counting Rules",
-        "resources": [
-          {
-            "title": "Khan Academy - Venn Diagram Probability",
-            "url": "https://www.youtube.com/watch?v=obZzOq_wSCg",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "CIMT - Sets and Venn Diagrams Guide",
-            "url": "https://www.cimt.org.uk/projects/mepres/book7/bk7_1.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "domain_title": "Domain 3: Algebra & Geometry (Approx. 32%)",
-    "topics": [
-      {
-        "topic": "Evaluating Algebraic Expressions",
-        "resources": [
-          {
-            "title": "Math Antics - Algebra Basics",
-            "url": "https://www.youtube.com/watch?v=NybHckSEQBI",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "MathCentre - Algebraic Expressions Leaflet",
-            "url": "https://www.mathcentre.ac.uk/resources/uploaded/mc-ty-algexp-2009-1.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Solving Two-Step Linear Equations",
-        "resources": [
-          {
-            "title": "Math Antics - Solving 2-Step Equations",
-            "url": "https://www.youtube.com/watch?v=LDIiYKYvvdA",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "MathCentre - Solving Linear Equations",
-            "url": "https://www.mathcentre.ac.uk/resources/uploaded/mc-ty-lineqn-2009-1.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Solving and Graphing Inequalities",
-        "resources": [
-          {
-            "title": "The Organic Chemistry Tutor - Linear Inequalities",
-            "url": "https://www.youtube.com/watch?v=K_NkqdsW5Bw",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "MathCentre - Solving Inequalities Leaflet",
-            "url": "https://www.mathcentre.ac.uk/resources/uploaded/mc-ty-inequalities-2009-1.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Identifying Functions & Vertical Line Test",
-        "resources": [
-          {
-            "title": "Math Antics - What is a Function?",
-            "url": "https://www.youtube.com/watch?v=52tpYl2tTqk",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "University of Adelaide - Function Notation Guide",
-            "url": "https://www.adelaide.edu.au/mathslearning/ua/media/25/functional-notation.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Slope, Intercept & The Distance Formula",
-        "resources": [
-          {
-            "title": "The Organic Chemistry Tutor - Slope & y-intercept",
-            "url": "https://www.youtube.com/watch?v=IqS61-R-A9w",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "MathCentre - The Straight Line (Slope) Guide",
-            "url": "https://www.mathcentre.ac.uk/resources/uploaded/mc-ty-strtline-2009-1.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Area & Perimeter (Composite Shapes & Circles)",
-        "resources": [
-          {
-            "title": "Math Antics - Area",
-            "url": "https://www.youtube.com/watch?v=xCdxURXMdFY",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "University of Utah - Geometry Formulas Guide",
-            "url": "https://www.math.utah.edu/online/1010/notes/10-A.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Volume & Surface Area (Prisms & Cylinders)",
-        "resources": [
-          {
-            "title": "Khan Academy - Volume of Cylinders",
-            "url": "https://www.youtube.com/watch?v=lxTOt1E1dC8",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "TestBook - Surface Area of Prism Formulas",
-            "url": "https://testbook.com/maths/surface-area-of-a-prism",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Geometric Transformations (Reflections, Rotations)",
-        "resources": [
-          {
-            "title": "Khan Academy - Transformations",
-            "url": "https://www.youtube.com/watch?v=j88wqRxJ8XA",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "CIMT - Transformations Concept Guide",
-            "url": "https://www.cimt.org.uk/projects/mepres/book8/bk8_13.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      },
-      {
-        "topic": "Pythagorean Theorem & Similar Triangles",
-        "resources": [
-          {
-            "title": "Math Antics - Pythagorean Theorem",
-            "url": "https://www.youtube.com/watch?v=WqhlG3Vakw8",
-            "check": true,
-            "type": "video"
-          },
-          {
-            "title": "MathCentre - Pythagoras' Theorem Leaflet",
-            "url": "https://www.mathcentre.ac.uk/resources/uploaded/mc-ty-pythagoras-2009-1.pdf",
-            "check": true,
-            "type": "PDF"
-          }
-        ]
-      }
-    ]
-  }
-]
+{
+  "curriculum": [
+    {
+      "section_title": "Domain 1: Number and Quantity (approx. 36%)",
+      "topics": [
+        {
+          "topic": "Integers, Decimals, and Fractions",
+          "resources": [
+            {
+              "title": "Learn the Number Sets to better understand math",
+              "url": "https://www.youtube.com/watch?v=soNlNuT-Zrs",
+              "type": "video"
+            },
+            {
+              "title": "Adding & Subtracting Integers",
+              "url": "https://www.youtube.com/watch?v=_BgblvF90UE",
+              "type": "video"
+            },
+            {
+                "title": "Integer Multiplication & Division",
+                "url": "https://www.youtube.com/watch?v=K_tPbVPfHgk",
+                "type": "video"
+              },
+              {
+                "title": "Order of Operations",
+                "url": "https://www.youtube.com/watch?v=dAgfnK528RA",
+                "type": "video"
+              },
+              {
+                "title": "Decimal Arithmetic",
+                "url": "https://www.youtube.com/watch?v=kwh4SD1ToFc",
+                "type": "video"
+              },
+            {
+              "title": "Everything to know about FRACTIONS in 30 minutes!",
+              "url": "https://www.youtube.com/watch?v=8XmhGjgsiVc",
+              "type": "video"
+            },
+            {
+              "title": "Place Value",
+              "url": "https://www.youtube.com/watch?v=T5Qf0qSSJFI",
+              "type": "video"
+            },
+            {
+              "title": "MathCentre - Decimals Guide",
+              "url": "https://www.mathcentre.ac.uk/resources/uploaded/mc-bus-decimals-2009-1.pdf",
+              "check": true,
+              "type": "PDF"
+            }
+          ]
+        },
+        {
+          "topic": "Ratios, Proportions, and Percents",
+          "resources": [
+            {
+              "title": "Introduction to Ratios",
+              "url": "https://www.youtube.com/watch?v=HpdMJaKaXXc",
+              "type": "video"
+            },
+            {
+              "title": "Proportions",
+              "url": "https://www.youtube.com/watch?v=USmit5zUGas",
+              "type": "video"
+            },
+            {
+              "title": "What Are Percentages?",
+              "url": "https://www.youtube.com/watch?v=JeVSmq1Nrpw",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "topic": "Rates and Unit Conversions",
+          "resources": [
+            {
+              "title": "Unit Conversions & Dimensional Analysis - Examples & Practice",
+              "url": "https://www.youtube.com/live/dc5mm7mRcCM",
+              "type": "video"
+            },
+            {
+              "title": "Unit Conversion & Dimensional Analysis | How to Pass Chemistry",
+              "url": "https://www.youtube.com/watch?v=0W1e-dAnRrE",
+              "type": "video"
+            },
+            {
+              "title": "Unit Rates | Solving Unit Rate Problems (Mr. J)",
+              "url": "https://www.youtube.com/watch?v=VrsDrMsPb8g",
+              "type": "video"
+            },
+            {
+              "title": "Solving Unit Rate Word Problems | Math with Mr. J",
+              "url": "https://www.youtube.com/watch?v=dcSYoFFSXQk",
+              "type": "video"
+            },
+            {
+              "title": "Constant Rate of Change (Rate Problems Tutorial)",
+              "url": "https://www.youtube.com/watch?v=fxxOscnIhjs",
+              "type": "video"
+            }
+          ]
+        }        
+      ]
+    },
+    {
+      "section_title": "Domain 2: Data Interpretation, Statistics, and Probability (approx. 32%)",
+      "topics": [
+        {
+          "topic": "Measures of Central Tendency and Spread",
+          "resources": [
+            {
+              "title": "Descriptive Statistics: Mean, Median, Mode (conceptual)",
+              "url": "https://www.youtube.com/watch?v=SplCk-t1BeA",
+              "type": "video"
+            },
+            {
+              "title": "Measures of Variability (Range, Standard Deviation, Variance)",
+              "url": "https://www.youtube.com/watch?v=s7WTQ0H0Acc",
+              "type": "video"
+            },
+            {
+              "title": "Data & Statistics - Mean, Median, Mode, Range, & Standard Deviation (intro)",
+              "url": "https://www.youtube.com/watch?v=W8NaUtkM46o",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "topic": "Data Interpretation and Scatterplots",
+          "resources": [
+            {
+              "title": "Scatterplots and Correlation (foundational explanation)",
+              "url": "https://www.youtube.com/watch?v=O5dF6gbq38g",
+              "type": "video"
+            },
+            {
+              "title": "Scatter Plots: Basic Concepts & How to Read Them",
+              "url": "https://www.youtube.com/watch?v=kGrgYIuGJRQ",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "topic": "Probability",
+          "resources": [
+            {
+              "title": "Introduction to Probability (simple outcomes & sample spaces)",
+              "url": "https://www.youtube.com/watch?v=uzkc-qNVoOk",
+              "type": "video"
+            },
+            {
+              "title": "Independent vs Dependent Events (conceptual)",
+              "url": "https://www.youtube.com/watch?v=xLK0MWRwFYc",
+              "type": "video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Domain 3: Algebra and Geometry (approx. 32%)",
+      "topics": [
+        {
+          "topic": "Algebraic Expressions and Linear Equations",
+          "resources": [
+            {
+              "title": "Solving Linear Equations and Inequalities",
+              "url": "https://www.youtube.com/results?search_query=solving+linear+equations+inequalities+algebra",
+              "type": "video"
+            },
+            {
+              "title": "Translating Word Problems into Algebra",
+              "url": "https://www.youtube.com/results?search_query=translating+word+problems+algebraic+expressions",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "topic": "Geometry: Angles and Similar Figures",
+          "resources": [
+            {
+              "title": "Parallel Lines and Transversals",
+              "url": "https://www.youtube.com/results?search_query=parallel+lines+transversal+angles",
+              "type": "video"
+            },
+            {
+              "title": "Congruent and Similar Triangles",
+              "url": "https://www.youtube.com/results?search_query=congruent+and+similar+triangles",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "topic": "Perimeter, Area, and Volume Formulas",
+          "resources": [
+            {
+              "title": "Area and Circumference of Circles",
+              "url": "https://www.youtube.com/results?search_query=math+antics+circles+area+circumference",
+              "type": "video"
+            },
+            {
+              "title": "Volume of Rectangular Prisms",
+              "url": "https://www.youtube.com/results?search_query=volume+of+rectangular+prisms",
+              "type": "video"
+            },
+            {
+              "title": "Praxis Core Math 5733 Study Guide (Search for PDF)",
+              "url": "https://www.google.com/search?q=praxis+core+math+5733+study+guide+pdf",
+              "type": "PDF"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+}
