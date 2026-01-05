@@ -1,0 +1,218 @@
+{
+  "title": "PRAXIS CORE MATH",
+  "description": "This is a curriculum for the PRAXIS CORE MATH exam. It is a comprehensive curriculum that covers all the topics that are tested on the exam.",
+  "curriculum": [
+    {
+      "section_title": "Domain 1: Number and Quantity (approx. 36%)",
+      "topics": [
+        {
+          "topic": "Integers, Decimals, and Fractions",
+          "resources": [
+            {
+              "title": "Learn the Number Sets to better understand math",
+              "url": "https://www.youtube.com/watch?v=soNlNuT-Zrs",
+              "type": "video"
+            },
+            {
+              "title": "Decial place value",
+              "url": "https://www.youtube.com/watch?v=KG6ILNOiMgM",
+              "type": "video"
+          },
+            {
+              "title": "Adding & Subtracting Integers",
+              "url": "https://www.youtube.com/watch?v=_BgblvF90UE",
+              "type": "video"
+            },
+            {
+                "title": "Integer Multiplication & Division",
+                "url": "https://www.youtube.com/watch?v=K_tPbVPfHgk",
+                "type": "video"
+              },
+              {
+                "title": "Order of Operations",
+                "url": "https://www.youtube.com/watch?v=dAgfnK528RA",
+                "type": "video"
+              },
+              {
+                "title": "Decimal Arithmetic",
+                "url": "https://www.youtube.com/watch?v=kwh4SD1ToFc",
+                "type": "video"
+              },
+            {
+              "title": "Everything to know about FRACTIONS in 30 minutes!",
+              "url": "https://www.youtube.com/watch?v=8XmhGjgsiVc",
+              "type": "video"
+            },
+            {
+              "title": "MathCentre - Decimals Guide",
+              "url": "https://www.mathcentre.ac.uk/resources/uploaded/mc-bus-decimals-2009-1.pdf",
+              "check": true,
+              "type": "PDF"
+            }
+          ]
+        },
+        {
+          "topic": "Ratios, Proportions, and Percents",
+          "resources": [
+            {
+              "title": "Introduction to Ratios",
+              "url": "https://www.youtube.com/watch?v=HpdMJaKaXXc",
+              "type": "video"
+            },
+            {
+              "title": "Proportions",
+              "url": "https://www.youtube.com/watch?v=USmit5zUGas",
+              "type": "video"
+            },
+            {
+              "title": "What Are Percentages?",
+              "url": "https://www.youtube.com/watch?v=JeVSmq1Nrpw",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "topic": "Rates and Unit Conversions",
+          "resources": [
+            {
+              "title": "Unit Conversions & Dimensional Analysis - Examples & Practice",
+              "url": "https://www.youtube.com/live/dc5mm7mRcCM",
+              "type": "video"
+            },
+            {
+              "title": "Unit Conversion & Dimensional Analysis | How to Pass Chemistry",
+              "url": "https://www.youtube.com/watch?v=0W1e-dAnRrE",
+              "type": "video"
+            },
+            {
+              "title": "Unit Rates | Solving Unit Rate Problems (Mr. J)",
+              "url": "https://www.youtube.com/watch?v=VrsDrMsPb8g",
+              "type": "video"
+            },
+            {
+              "title": "Solving Unit Rate Word Problems | Math with Mr. J",
+              "url": "https://www.youtube.com/watch?v=dcSYoFFSXQk",
+              "type": "video"
+            },
+            {
+              "title": "Constant Rate of Change (Rate Problems Tutorial)",
+              "url": "https://www.youtube.com/watch?v=fxxOscnIhjs",
+              "type": "video"
+            }
+          ]
+        }        
+      ]
+    },
+    {
+      "section_title": "Domain 2: Data Interpretation, Statistics, and Probability (approx. 32%)",
+      "topics": [
+        {
+          "topic": "Measures of Central Tendency and Spread",
+          "resources": [
+            {
+              "title": "Descriptive Statistics: Mean, Median, Mode (conceptual)",
+              "url": "https://www.youtube.com/watch?v=SplCk-t1BeA",
+              "type": "video"
+            },
+            {
+              "title": "Measures of Variability (Range, Standard Deviation, Variance)",
+              "url": "https://www.youtube.com/watch?v=s7WTQ0H0Acc",
+              "type": "video"
+            },
+            {
+              "title": "Data & Statistics - Mean, Median, Mode, Range, & Standard Deviation (intro)",
+              "url": "https://www.youtube.com/watch?v=W8NaUtkM46o",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "topic": "Data Interpretation and Scatterplots",
+          "resources": [
+            {
+              "title": "Scatterplots and Correlation (foundational explanation)",
+              "url": "https://www.youtube.com/watch?v=O5dF6gbq38g",
+              "type": "video"
+            },
+            {
+              "title": "Scatter Plots: Basic Concepts & How to Read Them",
+              "url": "https://www.youtube.com/watch?v=kGrgYIuGJRQ",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "topic": "Probability",
+          "resources": [
+            {
+              "title": "Introduction to Probability (simple outcomes & sample spaces)",
+              "url": "https://www.youtube.com/watch?v=uzkc-qNVoOk",
+              "type": "video"
+            },
+            {
+              "title": "Independent vs Dependent Events (conceptual)",
+              "url": "https://www.youtube.com/watch?v=xLK0MWRwFYc",
+              "type": "video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Domain 3: Algebra and Geometry (approx. 32%)",
+      "topics": [
+        {
+          "topic": "Algebraic Expressions and Linear Equations",
+          "resources": [
+            {
+              "title": "Solving Linear Equations and Inequalities",
+              "url": "https://www.youtube.com/results?search_query=solving+linear+equations+inequalities+algebra",
+              "type": "video"
+            },
+            {
+              "title": "Translating Word Problems into Algebra",
+              "url": "https://www.youtube.com/results?search_query=translating+word+problems+algebraic+expressions",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "topic": "Geometry: Angles and Similar Figures",
+          "resources": [
+            {
+              "title": "Parallel Lines and Transversals",
+              "url": "https://www.youtube.com/results?search_query=parallel+lines+transversal+angles",
+              "type": "video"
+            },
+            {
+              "title": "Congruent and Similar Triangles",
+              "url": "https://www.youtube.com/results?search_query=congruent+and+similar+triangles",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "topic": "Perimeter, Area, and Volume Formulas",
+          "resources": [
+            {
+              "title": "Area and Circumference of Circles",
+              "url": "https://www.youtube.com/results?search_query=math+antics+circles+area+circumference",
+              "type": "video"
+            },
+            {
+              "title": "Volume of Rectangular Prisms",
+              "url": "https://www.youtube.com/results?search_query=volume+of+rectangular+prisms",
+              "type": "video"
+            },
+            {
+              "title": "Praxis Core Math 5733 Study Guide (Search for PDF)",
+              "url": "https://www.google.com/search?q=praxis+core+math+5733+study+guide+pdf",
+              "type": "PDF"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+}
