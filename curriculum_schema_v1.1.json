@@ -2,10 +2,10 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Only Ever Curriculum Schema",
   "version": "1.1",
-  "description": "Schema for test prep curricula: course > domains > topics > sources (videos only), with supplemental PDFs collected separately",
+  "description": "Schema for test prep curricula: course > sections > topics > sources (videos only), with supplemental PDFs collected separately",
 
   "type": "object",
-  "required": ["schema_version", "course", "domains"],
+  "required": ["schema_version", "course", "sections"],
   
   "properties": {
     "schema_version": {
@@ -26,7 +26,7 @@
       }
     },
     
-    "domains": {
+    "sections": {
       "type": "array",
       "items": {
         "type": "object",
@@ -87,10 +87,10 @@
                 "format": "uri"
               },
               "description": { "type": "string" },
-              "relevant_domains": {
+              "relevant_sections": {
                 "type": "array",
                 "items": { "type": "string" },
-                "description": "Array of domain IDs this resource covers"
+                "description": "Array of section IDs this resource covers"
               },
               "page_range": { 
                 "type": "string",
@@ -105,7 +105,7 @@
 
   "example_structure": {
     "hierarchy": {
-      "main_curriculum": "course > domains[] > topics[] > sources[] (videos only)",
+      "main_curriculum": "course > sections[] > topics[] > sources[] (videos only)",
       "supplemental": "supplemental_resources > pdfs[]"
     },
     "minimal_example": {
@@ -114,10 +114,10 @@
         "title": "Test Name",
         "description": "Description"
       },
-      "domains": [
+      "sections": [
         {
-          "id": "domain_1",
-          "title": "Domain Title",
+          "id": "section_1",
+          "title": "section Title",
           "weight_percent": 25,
           "topics": [
             {
@@ -140,8 +140,8 @@
           {
             "title": "Textbook Name",
             "url": "https://example.com/textbook.pdf",
-            "description": "Comprehensive coverage of domain topics",
-            "relevant_domains": ["domain_1"]
+            "description": "Comprehensive coverage of section topics",
+            "relevant_sections": ["section_1"]
           }
         ]
       }

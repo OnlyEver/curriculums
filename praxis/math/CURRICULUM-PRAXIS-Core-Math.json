@@ -9,9 +9,9 @@
     "duration_minutes": 90,
     "total_questions": 56
   },
-  "domains": [
+  "sections": [
     {
-      "id": "domain_1",
+      "id": "section_1",
       "title": "Number and Quantity",
       "weight_percent": 36,
       "topics": [
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "id": "domain_2",
+      "id": "section_2",
       "title": "Data Interpretation, Statistics, and Probability",
       "weight_percent": 32,
       "topics": [
@@ -368,7 +368,7 @@
       ]
     },
     {
-      "id": "domain_3",
+      "id": "section_3",
       "title": "Algebra and Geometry",
       "weight_percent": 32,
       "topics": [
@@ -604,31 +604,31 @@
     }
   ],
   "supplemental_resources": {
-    "description": "Additional PDF resources for deeper study. These open-access textbooks cover topics across all domains.",
+    "description": "Additional PDF resources for deeper study. These open-access textbooks cover topics across all sections.",
     "pdfs": [
       {
         "title": "OpenStax Prealgebra 2e",
         "url": "https://assets.openstax.org/oscms-prodcms/media/documents/Prealgebra2e-WEB.pdf",
         "description": "Comprehensive prealgebra textbook covering number operations, fractions, decimals, ratios, geometry, and introductory algebra.",
-        "relevant_domains": ["domain_1", "domain_3"]
+        "relevant_sections": ["section_1", "section_3"]
       },
       {
         "title": "OpenIntro Statistics 4th Edition",
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Openintro_statistics_4th_edition.pdf",
         "description": "Open-source statistics textbook covering data visualization, descriptive statistics, probability, and regression.",
-        "relevant_domains": ["domain_2"]
+        "relevant_sections": ["section_2"]
       },
       {
         "title": "MathCentre - Decimals Guide",
         "url": "https://www.mathcentre.ac.uk/resources/uploaded/mc-bus-decimals-2009-1.pdf",
         "description": "Concise guide to decimal operations and place value.",
-        "relevant_domains": ["domain_1"]
+        "relevant_sections": ["section_1"]
       },
       {
         "title": "OpenStax Prealgebra - Links to Literacy",
         "url": "https://assets.openstax.org/oscms-prodcms/media/documents/Prealgebra-LtLS.pdf",
         "description": "Reading comprehension strategies for mathematical text and word problems.",
-        "relevant_domains": ["domain_1", "domain_3"]
+        "relevant_sections": ["section_1", "section_3"]
       }
     ]
   }
