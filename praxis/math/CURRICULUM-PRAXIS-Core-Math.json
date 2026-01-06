@@ -2,14 +2,15 @@
   "schema_version": "1.0",
   "course": {
     "title": "PRAXIS CORE MATH (5733)",
-    "description": "Comprehensive curriculum for the Praxis Core Academic Skills for Educators: Mathematics test (5733).",
+    "description": "A curated collection of the best open-access resources, mapped to the official ETS domains and powered by active recall.",
+    "image": "image/praxis-hero.jpeg",
     "test_code": "5733",
     "provider": "ETS",
     "category": "Teacher Certification",
     "duration_minutes": 90,
     "total_questions": 56
   },
-  "sections": [
+  "curriculum": [
     {
       "id": "section_1",
       "title": "Number and Quantity",
