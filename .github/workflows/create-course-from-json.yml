@@ -1,4 +1,4 @@
-name: Update Curriculum Course
+name: Create Course from JSON file
 
 on:
   pull_request:
