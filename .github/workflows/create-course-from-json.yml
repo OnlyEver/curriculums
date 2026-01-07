@@ -1,0 +1,60 @@
+name: Update Curriculum Course
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+jobs:
+  updateCourse:
+    runs-on: ubuntu-latest
+    # Run only if the PR was merged into main
+    if: github.event.pull_request.merged == true
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Compute hashes and update course
+        run: |
+          FILE="praxis/math/CURRICULUM-PRAXIS-Core-Math.json"
+
+          if [ ! -f "$FILE" ]; then
+            echo "File not found: $FILE"
+            exit 1
+          fi
+
+          # Get old content from previous commit
+          OLD_CONTENT=$(git show HEAD^:$FILE 2>/dev/null || echo "{}")
+
+          # Compute SHA256 hashes
+          OLD_HASH=$(echo "$OLD_CONTENT" | jq -c . | sha256sum | awk '{print $1}')
+          NEW_HASH=$(jq -c . "$FILE" | sha256sum | awk '{print $1}')
+
+          echo "Old hash: $OLD_HASH"
+          echo "New hash: $NEW_HASH"
+
+          if [ "$OLD_HASH" = "$NEW_HASH" ]; then
+            echo "No changes detected. Skipping Lambda call."
+            exit 0
+          fi
+
+          # Read full course JSON
+          COURSE_DATA=$(jq -c . "$FILE")
+
+          # Call Lambda to upsert course
+          curl -X POST "${{ secrets.CREATE_COURSE_URL }}" \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"course_data\": $COURSE_DATA,
+              \"old_hash_code\": \"$OLD_HASH\",
+              \"new_hash_code\": \"$NEW_HASH\"
+            }"
+
+          echo "Lambda request sent"
