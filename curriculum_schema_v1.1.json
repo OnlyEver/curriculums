@@ -26,7 +26,7 @@
       }
     },
     
-    "sections": {
+    "curriculum": {
       "type": "array",
       "items": {
         "type": "object",
