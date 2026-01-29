@@ -1,0 +1,238 @@
+{
+  "schema_version": "1.0",
+  "course": {
+    "title": "GMAT Focus: Verbal Reasoning",
+    "description": "Master GMAT Verbal with strategy videos from GMAT Ninja. Covers Critical Reasoning and Reading Comprehension (Sentence Correction was removed in GMAT Focus Edition). Powered by active recall.",
+    "image": "image/gmat-verbal-hero.jpeg",
+    "test_code": "GMAT-FOCUS-VR",
+    "provider": "GMAC",
+    "category": "Graduate Admissions",
+    "duration_minutes": 45,
+    "total_questions": 23,
+    "question_types": ["Critical Reasoning", "Reading Comprehension"]
+  },
+  "curriculum": [
+    {
+      "id": "section_0",
+      "title": "Critical Reasoning Foundations",
+      "weight_percent": 25,
+      "topics": [
+        {
+          "id": "0.1",
+          "title": "How to Approach Critical Reasoning",
+          "sources": [
+            {
+              "title": "GMAT Ninja CR Ep 1: How to Approach GMAT Focus Critical Reasoning",
+              "url": "https://www.youtube.com/watch?v=mR346Xb8JPs",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "0.2",
+          "title": "Missing the Heart of the Passage",
+          "sources": [
+            {
+              "title": "GMAT Ninja CR Ep 2: Missing the Heart of the Passage",
+              "url": "https://www.youtube.com/watch?v=nJZVMFSqvvE",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "0.3",
+          "title": "Paraphrasing",
+          "sources": [
+            {
+              "title": "GMAT Ninja CR Ep 3: Paraphrasing",
+              "url": "https://www.youtube.com/watch?v=TuU3EFy4mns",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_1",
+      "title": "Critical Reasoning Question Types",
+      "weight_percent": 25,
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Obsessing Over Question Types",
+          "sources": [
+            {
+              "title": "GMAT Ninja CR Ep 4: Obsessing Over Question Types",
+              "url": "https://www.youtube.com/watch?v=HicYn0bLX4I",
+              "type": "video",
+              "channel": "GMAT Ninja",
+              "note": "When question type matters (and when it doesn't)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_2",
+      "title": "Critical Reasoning Traps & Mistakes",
+      "weight_percent": 15,
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Anticipating the Correct Answer... Incorrectly",
+          "sources": [
+            {
+              "title": "GMAT Ninja CR Ep 5: Anticipating the Correct Answer... Incorrectly",
+              "url": "https://www.youtube.com/watch?v=DdeA2tSDj4I",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Falling in Love with an Answer Choice",
+          "sources": [
+            {
+              "title": "GMAT Ninja CR Ep 6: Falling in love with an answer choice",
+              "url": "https://www.youtube.com/watch?v=H7AyAmiIaBI",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Irrelevant & Out of Scope",
+          "sources": [
+            {
+              "title": "GMAT Ninja CR Ep 7: Irrelevant & Out of Scope",
+              "url": "https://www.youtube.com/watch?v=M1ghtPNHyP4",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Word Matching",
+          "sources": [
+            {
+              "title": "GMAT Ninja CR Ep 8: Word Matching",
+              "url": "https://www.youtube.com/watch?v=L-rfYY0v44s",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "2.5",
+          "title": "Rejecting Imperfect Answer Choices",
+          "sources": [
+            {
+              "title": "GMAT Ninja CR Ep 9: Rejecting Imperfect Answer Choices",
+              "url": "https://www.youtube.com/watch?v=4YqOQYVfcsk",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_3",
+      "title": "Reading Comprehension Foundations",
+      "weight_percent": 15,
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "How to Approach Reading Comprehension",
+          "sources": [
+            {
+              "title": "GMAT Ninja RC Ep 1: How to approach GMAT Focus Reading Comprehension",
+              "url": "https://www.youtube.com/watch?v=fIX4fVLUDgs",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Point of View in Reading Comprehension",
+          "sources": [
+            {
+              "title": "GMAT Ninja RC Ep 2: Point of View in Reading Comprehension Passages",
+              "url": "https://www.youtube.com/watch?v=DDCmm0t7CB8",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_4",
+      "title": "Reading Comprehension Passage Types",
+      "weight_percent": 20,
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Science Passages",
+          "sources": [
+            {
+              "title": "GMAT Ninja RC Ep 3: How to Approach Science Passages on the GMAT Focus & EA",
+              "url": "https://www.youtube.com/watch?v=irk3bbVAIQo",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Humanities Passages",
+          "sources": [
+            {
+              "title": "GMAT Ninja RC Ep 4: How to Tackle Humanities Passages on the GMAT Focus & EA",
+              "url": "https://www.youtube.com/watch?v=FfeGDpxGaoE",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Long Passages",
+          "sources": [
+            {
+              "title": "GMAT Ninja RC Ep 5: Long Reading Comprehension Passages on the GMAT Focus & EA",
+              "url": "https://www.youtube.com/watch?v=rBRbQ-Ta30A",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "Hard Passages",
+          "sources": [
+            {
+              "title": "GMAT Ninja RC Ep 6: Hard Reading Passages on the GMAT Focus & EA",
+              "url": "https://www.youtube.com/watch?v=4vdB0g9ke0M",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "video_sources": "All 15 videos from GMAT Ninja's official playlists (CR Ep 1-9, RC Ep 1-6)",
+    "focus_edition_note": "GMAT Focus Edition removed Sentence Correction. Only Critical Reasoning and Reading Comprehension remain.",
+    "cr_rc_split": "Approximately 50% CR and 50% RC questions on the exam",
+    "last_verified": "2026-01-29"
+  }
+}
