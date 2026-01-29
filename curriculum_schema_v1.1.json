@@ -2,14 +2,15 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Only Ever Curriculum Schema",
   "version": "1.1",
-  "description": "Schema for test prep curricula: course > sections > topics > sources (videos only), with supplemental PDFs collected separately",
+  "description": "Schema for test prep curricula: course > curriculum (sections) > topics > sources (videos only)",
 
   "type": "object",
-  "required": ["schema_version", "course", "sections"],
+  "required": ["schema_version", "course", "curriculum"],
   
   "properties": {
     "schema_version": {
-      "type": "string"
+      "type": "string",
+      "description": "Schema version, e.g. '1.0'"
     },
     
     "course": {
@@ -18,6 +19,7 @@
       "properties": {
         "title": { "type": "string" },
         "description": { "type": "string" },
+        "image": { "type": "string", "description": "Path to hero image" },
         "test_code": { "type": "string" },
         "provider": { "type": "string" },
         "category": { "type": "string" },
@@ -28,24 +30,34 @@
     
     "curriculum": {
       "type": "array",
+      "description": "Array of sections, each containing topics with video sources",
       "items": {
         "type": "object",
         "required": ["id", "title", "topics"],
         "properties": {
-          "id": { "type": "string" },
+          "id": { 
+            "type": "string",
+            "description": "Section ID, e.g. 'section_0', 'section_1'"
+          },
           "title": { "type": "string" },
-          "weight_percent": { "type": "number" },
+          "weight_percent": { 
+            "type": "number",
+            "description": "Percentage of test questions from this section (0-100)"
+          },
           "topics": {
             "type": "array",
             "items": {
               "type": "object",
               "required": ["id", "title", "sources"],
               "properties": {
-                "id": { "type": "string" },
+                "id": { 
+                  "type": "string",
+                  "description": "Topic ID, e.g. '1.1', '1.2'"
+                },
                 "title": { "type": "string" },
                 "sources": {
                   "type": "array",
-                  "description": "Video sources only - conceptual content for spaced repetition",
+                  "description": "Video sources only",
                   "items": {
                     "type": "object",
                     "required": ["title", "url", "type"],
@@ -59,6 +71,14 @@
                       "type": { 
                         "type": "string", 
                         "const": "video"
+                      },
+                      "channel": {
+                        "type": "string",
+                        "description": "YouTube channel name"
+                      },
+                      "note": {
+                        "type": "string",
+                        "description": "Optional note about the video content"
                       }
                     }
                   }
@@ -70,80 +90,46 @@
       }
     },
     
-    "supplemental_resources": {
+    "notes": {
       "type": "object",
-      "description": "Additional resources (PDFs, textbooks) for deeper study, collected outside main curriculum",
-      "properties": {
-        "description": { "type": "string" },
-        "pdfs": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "required": ["title", "url"],
-            "properties": {
-              "title": { "type": "string" },
-              "url": { 
-                "type": "string", 
-                "format": "uri"
-              },
-              "description": { "type": "string" },
-              "relevant_sections": {
-                "type": "array",
-                "items": { "type": "string" },
-                "description": "Array of section IDs this resource covers"
-              },
-              "page_range": { 
-                "type": "string",
-                "description": "Optional specific page range, e.g. '45-120'"
-              }
-            }
-          }
-        }
-      }
+      "description": "Optional metadata about the curriculum",
+      "additionalProperties": { "type": "string" }
     }
   },
 
-  "example_structure": {
-    "hierarchy": {
-      "main_curriculum": "course > sections[] > topics[] > sources[] (videos only)",
-      "supplemental": "supplemental_resources > pdfs[]"
-    },
-    "minimal_example": {
-      "schema_version": "1.1",
+  "examples": {
+    "minimal": {
+      "schema_version": "1.0",
       "course": {
-        "title": "Test Name",
-        "description": "Description"
+        "title": "Test Name (CODE)",
+        "description": "Course description. Powered by active recall.",
+        "test_code": "CODE",
+        "provider": "Provider Name",
+        "category": "Category"
       },
-      "sections": [
+      "curriculum": [
         {
-          "id": "section_1",
-          "title": "section Title",
+          "id": "section_0",
+          "title": "Section Title",
           "weight_percent": 25,
           "topics": [
             {
-              "id": "1.1",
+              "id": "0.1",
               "title": "Topic Title",
               "sources": [
                 {
                   "title": "Video Title",
-                  "url": "https://www.youtube.com/watch?v=xxxxx",
-                  "type": "video"
+                  "url": "https://www.youtube.com/watch?v=XXXXXXXXXXX",
+                  "type": "video",
+                  "channel": "Channel Name"
                 }
               ]
             }
           ]
         }
       ],
-      "supplemental_resources": {
-        "description": "Additional PDF resources for deeper study",
-        "pdfs": [
-          {
-            "title": "Textbook Name",
-            "url": "https://example.com/textbook.pdf",
-            "description": "Comprehensive coverage of section topics",
-            "relevant_sections": ["section_1"]
-          }
-        ]
+      "notes": {
+        "last_verified": "2026-01-29"
       }
     }
   }

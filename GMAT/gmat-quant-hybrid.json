@@ -1,0 +1,338 @@
+{
+  "schema_version": "1.0",
+  "course": {
+    "title": "GMAT Focus: Quantitative Reasoning",
+    "description": "Master GMAT Quant with strategy videos from top prep channels. Covers all major topic areas: arithmetic, algebra, number properties, word problems, and more. Powered by active recall.",
+    "image": "image/gmat-quant-hero.jpeg",
+    "test_code": "GMAT-FOCUS-QR",
+    "provider": "GMAC",
+    "category": "Graduate Admissions",
+    "duration_minutes": 45,
+    "total_questions": 21
+  },
+  "curriculum": [
+    {
+      "id": "section_0",
+      "title": "GMAT Quant Strategy",
+      "weight_percent": 0,
+      "topics": [
+        {
+          "id": "0.1",
+          "title": "How to Approach GMAT Quant",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 0: How to Approach GMAT Quant",
+              "url": "https://www.youtube.com/watch?v=CeZ45a2fucI",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_1",
+      "title": "Arithmetic",
+      "weight_percent": 15,
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Arithmetic for GMAT",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 1: Arithmetic",
+              "url": "https://www.youtube.com/watch?v=DfoK59HOI2s",
+              "type": "video",
+              "channel": "GMAT Ninja",
+              "note": "Fractions, decimals, estimation, roots - GMAT strategies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_2",
+      "title": "Algebra",
+      "weight_percent": 20,
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Linear Algebra for GMAT",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 2: Linear Algebra",
+              "url": "https://www.youtube.com/watch?v=TqaVOzwUQGk",
+              "type": "video",
+              "channel": "GMAT Ninja",
+              "note": "Equations and systems of equations"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Quadratics for GMAT",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 3: Quadratics",
+              "url": "https://www.youtube.com/watch?v=cmpDVLHzT3w",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Exponents for GMAT",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 4: Exponents",
+              "url": "https://www.youtube.com/watch?v=nvYgC_hDWhs",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Inequalities & Absolute Values for GMAT",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 5: Inequalities & Absolute Values",
+              "url": "https://www.youtube.com/watch?v=RWJC_cV4Mlw",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_3",
+      "title": "Number Properties",
+      "weight_percent": 15,
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Number Properties Part I",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 9: Number Properties Part I",
+              "url": "https://www.youtube.com/watch?v=bEm8yjQEU0Q",
+              "type": "video",
+              "channel": "GMAT Ninja",
+              "note": "Divisibility, primes, factors, multiples"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Number Properties Part II",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 10: Number Properties Part II",
+              "url": "https://www.youtube.com/watch?v=sFIf2ow4mJw",
+              "type": "video",
+              "channel": "GMAT Ninja",
+              "note": "Evens/odds, remainders, advanced concepts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_4",
+      "title": "Ratios & Percents",
+      "weight_percent": 10,
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Ratios for GMAT",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 7: Ratios",
+              "url": "https://www.youtube.com/watch?v=Y7GOAuc9Kp8",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Percents for GMAT",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 8: Percentages",
+              "url": "https://www.youtube.com/watch?v=3ikJ9r6j1uI",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_5",
+      "title": "Word Problems & Rates",
+      "weight_percent": 20,
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Word Problems for GMAT",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 6: Word Problems",
+              "url": "https://www.youtube.com/watch?v=rskGgtKWeTA",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Conversions & Rates Part I",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 12: Conversions & Rates Part I",
+              "url": "https://www.youtube.com/watch?v=bGI8xQhpEsY",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": "Rates Part II",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 13: Rates Part II",
+              "url": "https://www.youtube.com/watch?v=erk_2Wng0fE",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_6",
+      "title": "Counting, Sets & Statistics",
+      "weight_percent": 10,
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Counting & Sequences",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 11: Counting & Sequences",
+              "url": "https://www.youtube.com/watch?v=7x8fZ2wXZjI",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "6.2",
+          "title": "Overlapping Sets",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 14: Overlapping Sets",
+              "url": "https://www.youtube.com/watch?v=TRlVgm7RdmE",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "6.3",
+          "title": "Statistics Part I",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 15: Statistics Part I",
+              "url": "https://www.youtube.com/watch?v=zp4axuvNEcU",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "6.4",
+          "title": "Statistics Part II",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 16: Statistics Part II",
+              "url": "https://www.youtube.com/watch?v=RAVTJPmkGSA",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_7",
+      "title": "Probability & Combinatorics",
+      "weight_percent": 10,
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Probability",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 17: Probability",
+              "url": "https://www.youtube.com/watch?v=pLLhBZbS6eo",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        },
+        {
+          "id": "7.2",
+          "title": "Combinations & Permutations",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 18: Combinations & Permutations",
+              "url": "https://www.youtube.com/watch?v=HgLtEfiKfm4",
+              "type": "video",
+              "channel": "GMAT Ninja"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_8",
+      "title": "Geometry",
+      "weight_percent": 10,
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Geometry for GMAT",
+          "sources": [
+            {
+              "title": "Manhattan Prep: GMAT Math - Geometry",
+              "url": "https://www.youtube.com/watch?v=C2hiqxwomPg",
+              "type": "video",
+              "channel": "Manhattan Prep",
+              "note": "Triangles, circles, coordinate geometry, 3D shapes"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "supplemental_resources": {
+    "description": "Additional resources for practice.",
+    "practice_resources": [
+      {
+        "title": "GMAT Official Practice Questions",
+        "url": "https://www.mba.com/exams/gmat-focus-edition",
+        "description": "Official GMAC practice questions - the gold standard.",
+        "type": "practice"
+      }
+    ]
+  },
+  "notes": {
+    "video_sources": "Primary source is GMAT Ninja's free Quant video course (Ep 0-18), supplemented with Manhattan Prep for Geometry",
+    "last_verified": "2026-01-29"
+  }
+}
