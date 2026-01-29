@@ -7,7 +7,7 @@ on:
       - main
 
 jobs:
-  updateCourse:
+  upsertCourse:
     runs-on: ubuntu-latest
 
     # Run only if the PR was merged into main
@@ -40,10 +40,19 @@ jobs:
             echo "----------------------------------------"
             echo "Processing file: $FILE"
 
-            # Old content (empty if new file)
+            # Old content (exists for modified or deleted files)
             OLD_CONTENT=$(git show HEAD^:"$FILE" 2>/dev/null || echo "{}")
-
             OLD_HASH=$(echo "$OLD_CONTENT" | jq -c . | sha256sum | awk '{print $1}')
+
+            # Handle deleted files safely
+            if [ ! -f "$FILE" ]; then
+              echo "File was deleted: $FILE"
+              echo "Old hash: $OLD_HASH"
+              echo "Skipping deleted file."
+              continue
+            fi
+
+            # New content exists
             NEW_HASH=$(jq -c . "$FILE" | sha256sum | awk '{print $1}')
 
             echo "Old hash: $OLD_HASH"
