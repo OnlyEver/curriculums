@@ -72,10 +72,6 @@
                         "type": "string", 
                         "const": "video"
                       },
-                      "channel": {
-                        "type": "string",
-                        "description": "YouTube channel name"
-                      },
                       "note": {
                         "type": "string",
                         "description": "Optional note about the video content"
@@ -95,42 +91,4 @@
       "description": "Optional metadata about the curriculum",
       "additionalProperties": { "type": "string" }
     }
-  },
-
-  "examples": {
-    "minimal": {
-      "schema_version": "1.0",
-      "course": {
-        "title": "Test Name (CODE)",
-        "description": "Course description. Powered by active recall.",
-        "test_code": "CODE",
-        "provider": "Provider Name",
-        "category": "Category"
-      },
-      "curriculum": [
-        {
-          "id": "section_0",
-          "title": "Section Title",
-          "weight_percent": 25,
-          "topics": [
-            {
-              "id": "0.1",
-              "title": "Topic Title",
-              "sources": [
-                {
-                  "title": "Video Title",
-                  "url": "https://www.youtube.com/watch?v=XXXXXXXXXXX",
-                  "type": "video",
-                  "channel": "Channel Name"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "notes": {
-        "last_verified": "2026-01-29"
-      }
-    }
   }
-}

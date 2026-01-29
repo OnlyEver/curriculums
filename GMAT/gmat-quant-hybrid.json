@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "course": {
     "title": "GMAT Focus: Quantitative Reasoning",
     "description": "Master GMAT Quant with strategy videos from top prep channels. Covers all major topic areas: arithmetic, algebra, number properties, word problems, and more. Powered by active recall.",
@@ -23,8 +23,7 @@
             {
               "title": "GMAT Ninja Quant Ep 0: How to Approach GMAT Quant",
               "url": "https://www.youtube.com/watch?v=CeZ45a2fucI",
-              "type": "video",
-              "channel": "GMAT Ninja"
+              "type": "video"
             }
           ]
         }
@@ -43,7 +42,6 @@
               "title": "GMAT Ninja Quant Ep 1: Arithmetic",
               "url": "https://www.youtube.com/watch?v=DfoK59HOI2s",
               "type": "video",
-              "channel": "GMAT Ninja",
               "note": "Fractions, decimals, estimation, roots - GMAT strategies"
             }
           ]
@@ -63,7 +61,6 @@
               "title": "GMAT Ninja Quant Ep 2: Linear Algebra",
               "url": "https://www.youtube.com/watch?v=TqaVOzwUQGk",
               "type": "video",
-              "channel": "GMAT Ninja",
               "note": "Equations and systems of equations"
             }
           ]
@@ -75,8 +72,7 @@
             {
               "title": "GMAT Ninja Quant Ep 3: Quadratics",
               "url": "https://www.youtube.com/watch?v=cmpDVLHzT3w",
-              "type": "video",
-              "channel": "GMAT Ninja"
+              "type": "video"
             }
           ]
         },
@@ -87,8 +83,7 @@
             {
               "title": "GMAT Ninja Quant Ep 4: Exponents",
               "url": "https://www.youtube.com/watch?v=nvYgC_hDWhs",
-              "type": "video",
-              "channel": "GMAT Ninja"
+              "type": "video"
             }
           ]
         },
@@ -99,8 +94,7 @@
             {
               "title": "GMAT Ninja Quant Ep 5: Inequalities & Absolute Values",
               "url": "https://www.youtube.com/watch?v=RWJC_cV4Mlw",
-              "type": "video",
-              "channel": "GMAT Ninja"
+              "type": "video"
             }
           ]
         }
@@ -119,7 +113,6 @@
               "title": "GMAT Ninja Quant Ep 9: Number Properties Part I",
               "url": "https://www.youtube.com/watch?v=bEm8yjQEU0Q",
               "type": "video",
-              "channel": "GMAT Ninja",
               "note": "Divisibility, primes, factors, multiples"
             }
           ]
@@ -132,7 +125,6 @@
               "title": "GMAT Ninja Quant Ep 10: Number Properties Part II",
               "url": "https://www.youtube.com/watch?v=sFIf2ow4mJw",
               "type": "video",
-              "channel": "GMAT Ninja",
               "note": "Evens/odds, remainders, advanced concepts"
             }
           ]
@@ -151,8 +143,7 @@
             {
               "title": "GMAT Ninja Quant Ep 7: Ratios",
               "url": "https://www.youtube.com/watch?v=Y7GOAuc9Kp8",
-              "type": "video",
-              "channel": "GMAT Ninja"
+              "type": "video"
             }
           ]
         },
@@ -163,8 +154,7 @@
             {
               "title": "GMAT Ninja Quant Ep 8: Percentages",
               "url": "https://www.youtube.com/watch?v=3ikJ9r6j1uI",
-              "type": "video",
-              "channel": "GMAT Ninja"
+              "type": "video"
             }
           ]
         }
@@ -182,8 +172,7 @@
             {
               "title": "GMAT Ninja Quant Ep 6: Word Problems",
               "url": "https://www.youtube.com/watch?v=rskGgtKWeTA",
-              "type": "video",
-              "channel": "GMAT Ninja"
+              "type": "video"
             }
           ]
         },
@@ -194,8 +183,7 @@
             {
               "title": "GMAT Ninja Quant Ep 12: Conversions & Rates Part I",
               "url": "https://www.youtube.com/watch?v=bGI8xQhpEsY",
-              "type": "video",
-              "channel": "GMAT Ninja"
+              "type": "video"
             }
           ]
         },
@@ -206,8 +194,7 @@
             {
               "title": "GMAT Ninja Quant Ep 13: Rates Part II",
               "url": "https://www.youtube.com/watch?v=erk_2Wng0fE",
-              "type": "video",
-              "channel": "GMAT Ninja"
+              "type": "video"
             }
           ]
         }
@@ -225,8 +212,7 @@
             {
               "title": "GMAT Ninja Quant Ep 11: Counting & Sequences",
               "url": "https://www.youtube.com/watch?v=7x8fZ2wXZjI",
-              "type": "video",
-              "channel": "GMAT Ninja"
+              "type": "video"
             }
           ]
         },
@@ -237,8 +223,7 @@
             {
               "title": "GMAT Ninja Quant Ep 14: Overlapping Sets",
               "url": "https://www.youtube.com/watch?v=TRlVgm7RdmE",
-              "type": "video",
-              "channel": "GMAT Ninja"
+              "type": "video"
             }
           ]
         },
@@ -249,8 +234,7 @@
             {
               "title": "GMAT Ninja Quant Ep 15: Statistics Part I",
               "url": "https://www.youtube.com/watch?v=zp4axuvNEcU",
-              "type": "video",
-              "channel": "GMAT Ninja"
+              "type": "video"
             }
           ]
         },
@@ -261,8 +245,7 @@
             {
               "title": "GMAT Ninja Quant Ep 16: Statistics Part II",
               "url": "https://www.youtube.com/watch?v=RAVTJPmkGSA",
-              "type": "video",
-              "channel": "GMAT Ninja"
+              "type": "video"
             }
           ]
         }
@@ -280,8 +263,7 @@
             {
               "title": "GMAT Ninja Quant Ep 17: Probability",
               "url": "https://www.youtube.com/watch?v=pLLhBZbS6eo",
-              "type": "video",
-              "channel": "GMAT Ninja"
+              "type": "video"
             }
           ]
         },
@@ -292,8 +274,7 @@
             {
               "title": "GMAT Ninja Quant Ep 18: Combinations & Permutations",
               "url": "https://www.youtube.com/watch?v=HgLtEfiKfm4",
-              "type": "video",
-              "channel": "GMAT Ninja"
+              "type": "video"
             }
           ]
         }
@@ -312,7 +293,6 @@
               "title": "Manhattan Prep: GMAT Math - Geometry",
               "url": "https://www.youtube.com/watch?v=C2hiqxwomPg",
               "type": "video",
-              "channel": "Manhattan Prep",
               "note": "Triangles, circles, coordinate geometry, 3D shapes"
             }
           ]
