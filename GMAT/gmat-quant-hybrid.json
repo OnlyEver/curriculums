@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "course": {
     "title": "GMAT Focus: Quantitative Reasoning",
-    "description": "Master GMAT Quant with strategy videos from top prep channels. Covers all major topic areas: arithmetic, algebra, number properties, word problems, and more. Powered by active recall.",
+    "description": "Comprehensive GMAT Quant course with GMAT Ninja strategy videos and verified foundational concept videos.",
     "image": "image/gmat-quant-hero.jpeg",
     "test_code": "GMAT-FOCUS-QR",
     "provider": "GMAC",
@@ -31,18 +31,39 @@
     },
     {
       "id": "section_1",
-      "title": "Arithmetic",
-      "weight_percent": 15,
+      "title": "Arithmetic Fundamentals",
+      "weight_percent": 12,
       "topics": [
         {
           "id": "1.1",
-          "title": "Arithmetic for GMAT",
+          "title": "Arithmetic Strategy for GMAT",
           "sources": [
             {
               "title": "GMAT Ninja Quant Ep 1: Arithmetic",
               "url": "https://www.youtube.com/watch?v=DfoK59HOI2s",
-              "type": "video",
-              "note": "Fractions, decimals, estimation, roots - GMAT strategies"
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Decimals",
+          "sources": [
+            {
+              "title": "Math Antics - Decimal Arithmetic",
+              "url": "https://www.youtube.com/watch?v=kwh4SD1ToFc",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Order of Operations (PEMDAS)",
+          "sources": [
+            {
+              "title": "Math Antics - Order of Operations",
+              "url": "https://www.youtube.com/watch?v=dAgfnK528RA",
+              "type": "video"
             }
           ]
         }
@@ -50,24 +71,52 @@
     },
     {
       "id": "section_2",
-      "title": "Algebra",
-      "weight_percent": 20,
+      "title": "Linear Equations",
+      "weight_percent": 10,
       "topics": [
         {
           "id": "2.1",
-          "title": "Linear Algebra for GMAT",
+          "title": "Linear Algebra Strategy for GMAT",
           "sources": [
             {
               "title": "GMAT Ninja Quant Ep 2: Linear Algebra",
               "url": "https://www.youtube.com/watch?v=TqaVOzwUQGk",
-              "type": "video",
-              "note": "Equations and systems of equations"
+              "type": "video"
             }
           ]
         },
         {
           "id": "2.2",
-          "title": "Quadratics for GMAT",
+          "title": "Solving Linear Equations",
+          "sources": [
+            {
+              "title": "Solving Linear Equations",
+              "url": "https://www.youtube.com/watch?v=7DPWeBszNSM",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Systems of Equations",
+          "sources": [
+            {
+              "title": "Solving Systems of Equations With 2 Variables",
+              "url": "https://www.youtube.com/watch?v=oKqtgz2eo-Y",
+              "type": "video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_3",
+      "title": "Quadratic Equations",
+      "weight_percent": 8,
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Quadratics Strategy for GMAT",
           "sources": [
             {
               "title": "GMAT Ninja Quant Ep 3: Quadratics",
@@ -77,8 +126,81 @@
           ]
         },
         {
-          "id": "2.3",
-          "title": "Exponents for GMAT",
+          "id": "3.2",
+          "title": "Factoring Trinomials",
+          "sources": [
+            {
+              "title": "How to Factor Trinomials",
+              "url": "https://www.youtube.com/watch?v=B3bWbon_5WY",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Solving Quadratics by Factoring",
+          "sources": [
+            {
+              "title": "How to Solve Quadratic Equations by Factoring",
+              "url": "https://www.youtube.com/watch?v=qeByhTF8WEw",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Quadratic Formula",
+          "sources": [
+            {
+              "title": "How to Solve Quadratic Equations Using the Quadratic Formula",
+              "url": "https://www.youtube.com/watch?v=IlNAJl36-10",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "3.5",
+          "title": "Completing the Square",
+          "sources": [
+            {
+              "title": "Solving Quadratic Equations by Completing the Square",
+              "url": "https://www.youtube.com/watch?v=WOb25i8FBBw",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "3.6",
+          "title": "Difference of Perfect Squares",
+          "sources": [
+            {
+              "title": "How to Factor Binomials - Difference of Perfect Squares",
+              "url": "https://www.youtube.com/watch?v=vypGuPy6g2A",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "3.7",
+          "title": "Perfect Square Trinomials",
+          "sources": [
+            {
+              "title": "How to Factor Perfect Square Trinomials",
+              "url": "https://www.youtube.com/watch?v=f6yhfmW41wI",
+              "type": "video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_4",
+      "title": "Exponents & Roots",
+      "weight_percent": 8,
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Exponents Strategy for GMAT",
           "sources": [
             {
               "title": "GMAT Ninja Quant Ep 4: Exponents",
@@ -88,72 +210,67 @@
           ]
         },
         {
-          "id": "2.4",
-          "title": "Inequalities & Absolute Values for GMAT",
-          "sources": [
-            {
-              "title": "GMAT Ninja Quant Ep 5: Inequalities & Absolute Values",
-              "url": "https://www.youtube.com/watch?v=RWJC_cV4Mlw",
-              "type": "video"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "section_3",
-      "title": "Number Properties",
-      "weight_percent": 15,
-      "topics": [
-        {
-          "id": "3.1",
-          "title": "Number Properties Part I",
-          "sources": [
-            {
-              "title": "GMAT Ninja Quant Ep 9: Number Properties Part I",
-              "url": "https://www.youtube.com/watch?v=bEm8yjQEU0Q",
-              "type": "video",
-              "note": "Divisibility, primes, factors, multiples"
-            }
-          ]
-        },
-        {
-          "id": "3.2",
-          "title": "Number Properties Part II",
-          "sources": [
-            {
-              "title": "GMAT Ninja Quant Ep 10: Number Properties Part II",
-              "url": "https://www.youtube.com/watch?v=sFIf2ow4mJw",
-              "type": "video",
-              "note": "Evens/odds, remainders, advanced concepts"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "section_4",
-      "title": "Ratios & Percents",
-      "weight_percent": 10,
-      "topics": [
-        {
-          "id": "4.1",
-          "title": "Ratios for GMAT",
-          "sources": [
-            {
-              "title": "GMAT Ninja Quant Ep 7: Ratios",
-              "url": "https://www.youtube.com/watch?v=Y7GOAuc9Kp8",
-              "type": "video"
-            }
-          ]
-        },
-        {
           "id": "4.2",
-          "title": "Percents for GMAT",
+          "title": "Introduction to Exponents",
           "sources": [
             {
-              "title": "GMAT Ninja Quant Ep 8: Percentages",
-              "url": "https://www.youtube.com/watch?v=3ikJ9r6j1uI",
+              "title": "Introduction to Exponents",
+              "url": "https://www.youtube.com/watch?v=ZtTO8uUGy2Y",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Negative Exponents",
+          "sources": [
+            {
+              "title": "Negative Exponents",
+              "url": "https://www.youtube.com/watch?v=TKj8kEofbAw",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "Fractional Exponents",
+          "sources": [
+            {
+              "title": "Fractional Exponents",
+              "url": "https://www.youtube.com/watch?v=GipavLCnke0",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "4.5",
+          "title": "Square Roots and Cube Roots",
+          "sources": [
+            {
+              "title": "Square Roots and Cube Roots",
+              "url": "https://www.youtube.com/watch?v=IWzPle0KDPo",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "4.6",
+          "title": "Simplifying Radicals",
+          "sources": [
+            {
+              "title": "Simplifying Radicals",
+              "url": "https://www.youtube.com/watch?v=U7AXF75rC00",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "4.7",
+          "title": "Rationalizing the Denominator",
+          "sources": [
+            {
+              "title": "How to Rationalize the Denominator",
+              "url": "https://www.youtube.com/watch?v=5j8a75aHaSE",
               "type": "video"
             }
           ]
@@ -162,12 +279,114 @@
     },
     {
       "id": "section_5",
-      "title": "Word Problems & Rates",
-      "weight_percent": 20,
+      "title": "Number Properties",
+      "weight_percent": 12,
       "topics": [
         {
           "id": "5.1",
-          "title": "Word Problems for GMAT",
+          "title": "Number Properties Part I for GMAT",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 9: Number Properties Part I",
+              "url": "https://www.youtube.com/watch?v=bEm8yjQEU0Q",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Number Properties Part II for GMAT",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 10: Number Properties Part II",
+              "url": "https://www.youtube.com/watch?v=sFIf2ow4mJw",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": "Greatest Common Factor (GCF)",
+          "sources": [
+            {
+              "title": "How to Factor the Greatest Common Factor (GCF)",
+              "url": "https://www.youtube.com/watch?v=ynefQgfxZBs",
+              "type": "video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_6",
+      "title": "Inequalities & Absolute Value",
+      "weight_percent": 8,
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Inequalities & Absolute Value for GMAT",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 5: Inequalities & Absolute Values",
+              "url": "https://www.youtube.com/watch?v=RWJC_cV4Mlw",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "6.2",
+          "title": "Solving Linear Inequalities",
+          "sources": [
+            {
+              "title": "How to Solve Linear Inequalities",
+              "url": "https://www.youtube.com/watch?v=rIl2USa8XPY",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "6.3",
+          "title": "Compound Inequalities",
+          "sources": [
+            {
+              "title": "Solving Compound Inequalities",
+              "url": "https://www.youtube.com/watch?v=msiceXvwriE",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "6.4",
+          "title": "Absolute Value Equations",
+          "sources": [
+            {
+              "title": "How to Solve Absolute Value Equations",
+              "url": "https://www.youtube.com/watch?v=_cHbhpLlkUY",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "6.5",
+          "title": "Absolute Value Inequalities",
+          "sources": [
+            {
+              "title": "Solving Absolute Value Inequalities",
+              "url": "https://www.youtube.com/watch?v=ZJvOGkykJ44",
+              "type": "video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_7",
+      "title": "Word Problems & Rates",
+      "weight_percent": 12,
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Word Problems Strategy for GMAT",
           "sources": [
             {
               "title": "GMAT Ninja Quant Ep 6: Word Problems",
@@ -177,8 +396,8 @@
           ]
         },
         {
-          "id": "5.2",
-          "title": "Conversions & Rates Part I",
+          "id": "7.2",
+          "title": "Rates Part I for GMAT",
           "sources": [
             {
               "title": "GMAT Ninja Quant Ep 12: Conversions & Rates Part I",
@@ -188,8 +407,8 @@
           ]
         },
         {
-          "id": "5.3",
-          "title": "Rates Part II",
+          "id": "7.3",
+          "title": "Rates Part II for GMAT",
           "sources": [
             {
               "title": "GMAT Ninja Quant Ep 13: Rates Part II",
@@ -201,13 +420,42 @@
       ]
     },
     {
-      "id": "section_6",
-      "title": "Counting, Sets & Statistics",
-      "weight_percent": 10,
+      "id": "section_8",
+      "title": "Ratios & Percents",
+      "weight_percent": 8,
       "topics": [
         {
-          "id": "6.1",
-          "title": "Counting & Sequences",
+          "id": "8.1",
+          "title": "Ratios Strategy for GMAT",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 7: Ratios",
+              "url": "https://www.youtube.com/watch?v=Y7GOAuc9Kp8",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "8.2",
+          "title": "Percents Strategy for GMAT",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 8: Percentages",
+              "url": "https://www.youtube.com/watch?v=3ikJ9r6j1uI",
+              "type": "video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_9",
+      "title": "Counting, Sets & Sequences",
+      "weight_percent": 6,
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Counting & Sequences for GMAT",
           "sources": [
             {
               "title": "GMAT Ninja Quant Ep 11: Counting & Sequences",
@@ -217,8 +465,8 @@
           ]
         },
         {
-          "id": "6.2",
-          "title": "Overlapping Sets",
+          "id": "9.2",
+          "title": "Overlapping Sets for GMAT",
           "sources": [
             {
               "title": "GMAT Ninja Quant Ep 14: Overlapping Sets",
@@ -228,8 +476,37 @@
           ]
         },
         {
-          "id": "6.3",
-          "title": "Statistics Part I",
+          "id": "9.3",
+          "title": "Arithmetic Sequences",
+          "sources": [
+            {
+              "title": "Arithmetic Sequences and Series",
+              "url": "https://www.youtube.com/watch?v=XZJdyPkCxuE",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "9.4",
+          "title": "Geometric Sequences",
+          "sources": [
+            {
+              "title": "Geometric Sequences and Series",
+              "url": "https://www.youtube.com/watch?v=zRKZ0-kOUZM",
+              "type": "video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_10",
+      "title": "Statistics",
+      "weight_percent": 6,
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "Statistics Part I for GMAT",
           "sources": [
             {
               "title": "GMAT Ninja Quant Ep 15: Statistics Part I",
@@ -239,8 +516,8 @@
           ]
         },
         {
-          "id": "6.4",
-          "title": "Statistics Part II",
+          "id": "10.2",
+          "title": "Statistics Part II for GMAT",
           "sources": [
             {
               "title": "GMAT Ninja Quant Ep 16: Statistics Part II",
@@ -248,17 +525,50 @@
               "type": "video"
             }
           ]
+        },
+        {
+          "id": "10.3",
+          "title": "Mean, Median, Mode & Range",
+          "sources": [
+            {
+              "title": "Mean, Median, Mode, and Range",
+              "url": "https://www.youtube.com/watch?v=A1mQ9kD-i9I",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "10.4",
+          "title": "Weighted Average",
+          "sources": [
+            {
+              "title": "The Weighted Mean",
+              "url": "https://www.youtube.com/watch?v=LdrBNhWw9AM",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "10.5",
+          "title": "Standard Deviation",
+          "sources": [
+            {
+              "title": "How to Calculate the Standard Deviation",
+              "url": "https://www.youtube.com/watch?v=IaTFpp-uzp0",
+              "type": "video"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "section_7",
+      "id": "section_11",
       "title": "Probability & Combinatorics",
-      "weight_percent": 10,
+      "weight_percent": 6,
       "topics": [
         {
-          "id": "7.1",
-          "title": "Probability",
+          "id": "11.1",
+          "title": "Probability for GMAT",
           "sources": [
             {
               "title": "GMAT Ninja Quant Ep 17: Probability",
@@ -268,8 +578,8 @@
           ]
         },
         {
-          "id": "7.2",
-          "title": "Combinations & Permutations",
+          "id": "11.2",
+          "title": "Combinations & Permutations for GMAT",
           "sources": [
             {
               "title": "GMAT Ninja Quant Ep 18: Combinations & Permutations",
@@ -277,42 +587,166 @@
               "type": "video"
             }
           ]
+        },
+        {
+          "id": "11.3",
+          "title": "Introduction to Probability",
+          "sources": [
+            {
+              "title": "Introduction to Probability",
+              "url": "https://www.youtube.com/watch?v=SkidyDQuupA",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "11.4",
+          "title": "Permutations and Combinations",
+          "sources": [
+            {
+              "title": "Permutations and Combinations",
+              "url": "https://www.youtube.com/watch?v=XJnIdRXUi7A",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "11.5",
+          "title": "Conditional Probability",
+          "sources": [
+            {
+              "title": "Conditional Probability with Venn Diagrams and Contingency Tables",
+              "url": "https://www.youtube.com/watch?v=sqDVrXq_eh0",
+              "type": "video"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "section_8",
+      "id": "section_12",
       "title": "Geometry",
-      "weight_percent": 10,
+      "weight_percent": 8,
       "topics": [
         {
-          "id": "8.1",
-          "title": "Geometry for GMAT",
+          "id": "12.1",
+          "title": "Geometry Strategy for GMAT",
           "sources": [
             {
               "title": "Manhattan Prep: GMAT Math - Geometry",
               "url": "https://www.youtube.com/watch?v=C2hiqxwomPg",
-              "type": "video",
-              "note": "Triangles, circles, coordinate geometry, 3D shapes"
+              "type": "video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_13",
+      "title": "Coordinate Geometry",
+      "weight_percent": 6,
+      "topics": [
+        {
+          "id": "13.1",
+          "title": "Slope Intercept Form",
+          "sources": [
+            {
+              "title": "Slope Intercept Form",
+              "url": "https://www.youtube.com/watch?v=qXX47hS2KLw",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "13.2",
+          "title": "How to Find the X and Y Intercepts",
+          "sources": [
+            {
+              "title": "How to Find the X and Y Intercepts of a Line",
+              "url": "https://www.youtube.com/watch?v=zL1E5w2sMxc",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "13.3",
+          "title": "Parallel and Perpendicular Lines",
+          "sources": [
+            {
+              "title": "How to Tell if 2 Lines are Parallel, Perpendicular, or Neither",
+              "url": "https://www.youtube.com/watch?v=Uq8pSFaXPmQ",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "13.4",
+          "title": "Writing Equations of Parallel and Perpendicular Lines",
+          "sources": [
+            {
+              "title": "Writing Linear Equations of Parallel and Perpendicular Lines",
+              "url": "https://www.youtube.com/watch?v=Nj6OKT-zKWg",
+              "type": "video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_14",
+      "title": "Functions",
+      "weight_percent": 4,
+      "topics": [
+        {
+          "id": "14.1",
+          "title": "What Is a Function",
+          "sources": [
+            {
+              "title": "What is a Function?",
+              "url": "https://www.youtube.com/watch?v=7JZ0IfCQ488",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "14.2",
+          "title": "Domain of a Function",
+          "sources": [
+            {
+              "title": "How to Find the Domain of a Function",
+              "url": "https://www.youtube.com/watch?v=djT6-YamHaA",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "14.3",
+          "title": "Composite Functions",
+          "sources": [
+            {
+              "title": "Composite Functions",
+              "url": "https://www.youtube.com/watch?v=ZFPkQkURSxk",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "14.4",
+          "title": "Inverse Functions",
+          "sources": [
+            {
+              "title": "How to Find the Inverse Function",
+              "url": "https://www.youtube.com/watch?v=2zeYEx4eTdc",
+              "type": "video"
             }
           ]
         }
       ]
     }
   ],
-  "supplemental_resources": {
-    "description": "Additional resources for practice.",
-    "practice_resources": [
-      {
-        "title": "GMAT Official Practice Questions",
-        "url": "https://www.mba.com/exams/gmat-focus-edition",
-        "description": "Official GMAC practice questions - the gold standard.",
-        "type": "practice"
-      }
-    ]
-  },
   "notes": {
-    "video_sources": "Primary source is GMAT Ninja's free Quant video course (Ep 0-18), supplemented with Manhattan Prep for Geometry",
-    "last_verified": "2026-01-29"
+    "approach": "All URLs verified from video-tutor.net (Organic Chemistry Tutor) and mathantics.com",
+    "verification_date": "2026-02-01",
+    "channels_used": "GMAT Ninja, Manhattan Prep, Organic Chemistry Tutor, Math Antics"
   }
 }
