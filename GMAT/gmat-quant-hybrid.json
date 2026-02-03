@@ -13,29 +13,11 @@
   "curriculum": [
     {
       "id": "section_0",
-      "title": "GMAT Quant Strategy",
-      "weight_percent": 0,
-      "topics": [
-        {
-          "id": "0.1",
-          "title": "How to Approach GMAT Quant",
-          "sources": [
-            {
-              "title": "GMAT Ninja Quant Ep 0: How to Approach GMAT Quant",
-              "url": "https://www.youtube.com/watch?v=CeZ45a2fucI",
-              "type": "video"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "section_1",
       "title": "Arithmetic Fundamentals",
       "weight_percent": 12,
       "topics": [
         {
-          "id": "1.1",
+          "id": "0.1",
           "title": "Arithmetic Strategy for GMAT",
           "sources": [
             {
@@ -46,7 +28,7 @@
           ]
         },
         {
-          "id": "1.2",
+          "id": "0.2",
           "title": "Decimals",
           "sources": [
             {
@@ -57,7 +39,7 @@
           ]
         },
         {
-          "id": "1.3",
+          "id": "0.3",
           "title": "Order of Operations (PEMDAS)",
           "sources": [
             {
@@ -70,12 +52,12 @@
       ]
     },
     {
-      "id": "section_2",
+      "id": "section_1",
       "title": "Linear Equations",
       "weight_percent": 10,
       "topics": [
         {
-          "id": "2.1",
+          "id": "1.1",
           "title": "Linear Algebra Strategy for GMAT",
           "sources": [
             {
@@ -86,7 +68,7 @@
           ]
         },
         {
-          "id": "2.2",
+          "id": "1.2",
           "title": "Solving Linear Equations",
           "sources": [
             {
@@ -97,7 +79,7 @@
           ]
         },
         {
-          "id": "2.3",
+          "id": "1.3",
           "title": "Systems of Equations",
           "sources": [
             {
@@ -110,12 +92,12 @@
       ]
     },
     {
-      "id": "section_3",
+      "id": "section_2",
       "title": "Quadratic Equations",
       "weight_percent": 8,
       "topics": [
         {
-          "id": "3.1",
+          "id": "2.1",
           "title": "Quadratics Strategy for GMAT",
           "sources": [
             {
@@ -126,7 +108,7 @@
           ]
         },
         {
-          "id": "3.2",
+          "id": "2.2",
           "title": "Factoring Trinomials",
           "sources": [
             {
@@ -137,7 +119,7 @@
           ]
         },
         {
-          "id": "3.3",
+          "id": "2.3",
           "title": "Solving Quadratics by Factoring",
           "sources": [
             {
@@ -148,7 +130,7 @@
           ]
         },
         {
-          "id": "3.4",
+          "id": "2.4",
           "title": "Quadratic Formula",
           "sources": [
             {
@@ -159,7 +141,7 @@
           ]
         },
         {
-          "id": "3.5",
+          "id": "2.5",
           "title": "Completing the Square",
           "sources": [
             {
@@ -170,7 +152,7 @@
           ]
         },
         {
-          "id": "3.6",
+          "id": "2.6",
           "title": "Difference of Perfect Squares",
           "sources": [
             {
@@ -181,7 +163,7 @@
           ]
         },
         {
-          "id": "3.7",
+          "id": "2.7",
           "title": "Perfect Square Trinomials",
           "sources": [
             {
@@ -194,12 +176,12 @@
       ]
     },
     {
-      "id": "section_4",
+      "id": "section_3",
       "title": "Exponents & Roots",
       "weight_percent": 8,
       "topics": [
         {
-          "id": "4.1",
+          "id": "3.1",
           "title": "Exponents Strategy for GMAT",
           "sources": [
             {
@@ -210,7 +192,7 @@
           ]
         },
         {
-          "id": "4.2",
+          "id": "3.2",
           "title": "Introduction to Exponents",
           "sources": [
             {
@@ -221,7 +203,7 @@
           ]
         },
         {
-          "id": "4.3",
+          "id": "3.3",
           "title": "Negative Exponents",
           "sources": [
             {
@@ -232,7 +214,7 @@
           ]
         },
         {
-          "id": "4.4",
+          "id": "3.4",
           "title": "Fractional Exponents",
           "sources": [
             {
@@ -243,7 +225,7 @@
           ]
         },
         {
-          "id": "4.5",
+          "id": "3.5",
           "title": "Square Roots and Cube Roots",
           "sources": [
             {
@@ -254,7 +236,7 @@
           ]
         },
         {
-          "id": "4.6",
+          "id": "3.6",
           "title": "Simplifying Radicals",
           "sources": [
             {
@@ -265,7 +247,7 @@
           ]
         },
         {
-          "id": "4.7",
+          "id": "3.7",
           "title": "Rationalizing the Denominator",
           "sources": [
             {
@@ -278,12 +260,12 @@
       ]
     },
     {
-      "id": "section_5",
+      "id": "section_4",
       "title": "Number Properties",
       "weight_percent": 12,
       "topics": [
         {
-          "id": "5.1",
+          "id": "4.1",
           "title": "Number Properties Part I for GMAT",
           "sources": [
             {
@@ -294,7 +276,7 @@
           ]
         },
         {
-          "id": "5.2",
+          "id": "4.2",
           "title": "Number Properties Part II for GMAT",
           "sources": [
             {
@@ -305,7 +287,7 @@
           ]
         },
         {
-          "id": "5.3",
+          "id": "4.3",
           "title": "Greatest Common Factor (GCF)",
           "sources": [
             {
@@ -318,12 +300,12 @@
       ]
     },
     {
-      "id": "section_6",
+      "id": "section_5",
       "title": "Inequalities & Absolute Value",
       "weight_percent": 8,
       "topics": [
         {
-          "id": "6.1",
+          "id": "5.1",
           "title": "Inequalities & Absolute Value for GMAT",
           "sources": [
             {
@@ -334,7 +316,7 @@
           ]
         },
         {
-          "id": "6.2",
+          "id": "5.2",
           "title": "Solving Linear Inequalities",
           "sources": [
             {
@@ -345,7 +327,7 @@
           ]
         },
         {
-          "id": "6.3",
+          "id": "5.3",
           "title": "Compound Inequalities",
           "sources": [
             {
@@ -356,7 +338,7 @@
           ]
         },
         {
-          "id": "6.4",
+          "id": "5.4",
           "title": "Absolute Value Equations",
           "sources": [
             {
@@ -367,7 +349,7 @@
           ]
         },
         {
-          "id": "6.5",
+          "id": "5.5",
           "title": "Absolute Value Inequalities",
           "sources": [
             {
@@ -380,12 +362,12 @@
       ]
     },
     {
-      "id": "section_7",
+      "id": "section_6",
       "title": "Word Problems & Rates",
       "weight_percent": 12,
       "topics": [
         {
-          "id": "7.1",
+          "id": "6.1",
           "title": "Word Problems Strategy for GMAT",
           "sources": [
             {
@@ -396,7 +378,7 @@
           ]
         },
         {
-          "id": "7.2",
+          "id": "6.2",
           "title": "Rates Part I for GMAT",
           "sources": [
             {
@@ -407,7 +389,7 @@
           ]
         },
         {
-          "id": "7.3",
+          "id": "6.3",
           "title": "Rates Part II for GMAT",
           "sources": [
             {
@@ -420,12 +402,12 @@
       ]
     },
     {
-      "id": "section_8",
+      "id": "section_7",
       "title": "Ratios & Percents",
       "weight_percent": 8,
       "topics": [
         {
-          "id": "8.1",
+          "id": "7.1",
           "title": "Ratios Strategy for GMAT",
           "sources": [
             {
@@ -436,7 +418,7 @@
           ]
         },
         {
-          "id": "8.2",
+          "id": "7.2",
           "title": "Percents Strategy for GMAT",
           "sources": [
             {
@@ -449,12 +431,12 @@
       ]
     },
     {
-      "id": "section_9",
+      "id": "section_8",
       "title": "Counting, Sets & Sequences",
       "weight_percent": 6,
       "topics": [
         {
-          "id": "9.1",
+          "id": "8.1",
           "title": "Counting & Sequences for GMAT",
           "sources": [
             {
@@ -465,7 +447,7 @@
           ]
         },
         {
-          "id": "9.2",
+          "id": "8.2",
           "title": "Overlapping Sets for GMAT",
           "sources": [
             {
@@ -476,7 +458,7 @@
           ]
         },
         {
-          "id": "9.3",
+          "id": "8.3",
           "title": "Arithmetic Sequences",
           "sources": [
             {
@@ -487,7 +469,7 @@
           ]
         },
         {
-          "id": "9.4",
+          "id": "8.4",
           "title": "Geometric Sequences",
           "sources": [
             {
@@ -500,12 +482,12 @@
       ]
     },
     {
-      "id": "section_10",
+      "id": "section_9",
       "title": "Statistics",
       "weight_percent": 6,
       "topics": [
         {
-          "id": "10.1",
+          "id": "9.1",
           "title": "Statistics Part I for GMAT",
           "sources": [
             {
@@ -516,7 +498,7 @@
           ]
         },
         {
-          "id": "10.2",
+          "id": "9.2",
           "title": "Statistics Part II for GMAT",
           "sources": [
             {
@@ -527,7 +509,7 @@
           ]
         },
         {
-          "id": "10.3",
+          "id": "9.3",
           "title": "Mean, Median, Mode & Range",
           "sources": [
             {
@@ -538,7 +520,7 @@
           ]
         },
         {
-          "id": "10.4",
+          "id": "9.4",
           "title": "Weighted Average",
           "sources": [
             {
@@ -549,7 +531,7 @@
           ]
         },
         {
-          "id": "10.5",
+          "id": "9.5",
           "title": "Standard Deviation",
           "sources": [
             {
@@ -562,12 +544,12 @@
       ]
     },
     {
-      "id": "section_11",
+      "id": "section_10",
       "title": "Probability & Combinatorics",
       "weight_percent": 6,
       "topics": [
         {
-          "id": "11.1",
+          "id": "10.1",
           "title": "Probability for GMAT",
           "sources": [
             {
@@ -578,7 +560,7 @@
           ]
         },
         {
-          "id": "11.2",
+          "id": "10.2",
           "title": "Combinations & Permutations for GMAT",
           "sources": [
             {
@@ -589,7 +571,7 @@
           ]
         },
         {
-          "id": "11.3",
+          "id": "10.3",
           "title": "Introduction to Probability",
           "sources": [
             {
@@ -600,7 +582,7 @@
           ]
         },
         {
-          "id": "11.4",
+          "id": "10.4",
           "title": "Permutations and Combinations",
           "sources": [
             {
@@ -611,7 +593,7 @@
           ]
         },
         {
-          "id": "11.5",
+          "id": "10.5",
           "title": "Conditional Probability",
           "sources": [
             {
@@ -624,12 +606,12 @@
       ]
     },
     {
-      "id": "section_12",
+      "id": "section_11",
       "title": "Geometry",
       "weight_percent": 8,
       "topics": [
         {
-          "id": "12.1",
+          "id": "11.1",
           "title": "Geometry Strategy for GMAT",
           "sources": [
             {
@@ -642,12 +624,12 @@
       ]
     },
     {
-      "id": "section_13",
+      "id": "section_12",
       "title": "Coordinate Geometry",
       "weight_percent": 6,
       "topics": [
         {
-          "id": "13.1",
+          "id": "12.1",
           "title": "Slope Intercept Form",
           "sources": [
             {
@@ -658,7 +640,7 @@
           ]
         },
         {
-          "id": "13.2",
+          "id": "12.2",
           "title": "How to Find the X and Y Intercepts",
           "sources": [
             {
@@ -669,7 +651,7 @@
           ]
         },
         {
-          "id": "13.3",
+          "id": "12.3",
           "title": "Parallel and Perpendicular Lines",
           "sources": [
             {
@@ -680,7 +662,7 @@
           ]
         },
         {
-          "id": "13.4",
+          "id": "12.4",
           "title": "Writing Equations of Parallel and Perpendicular Lines",
           "sources": [
             {
@@ -693,12 +675,12 @@
       ]
     },
     {
-      "id": "section_14",
+      "id": "section_13",
       "title": "Functions",
       "weight_percent": 4,
       "topics": [
         {
-          "id": "14.1",
+          "id": "13.1",
           "title": "What Is a Function",
           "sources": [
             {
@@ -709,7 +691,7 @@
           ]
         },
         {
-          "id": "14.2",
+          "id": "13.2",
           "title": "Domain of a Function",
           "sources": [
             {
@@ -720,7 +702,7 @@
           ]
         },
         {
-          "id": "14.3",
+          "id": "13.3",
           "title": "Composite Functions",
           "sources": [
             {
@@ -731,12 +713,30 @@
           ]
         },
         {
-          "id": "14.4",
+          "id": "13.4",
           "title": "Inverse Functions",
           "sources": [
             {
               "title": "How to Find the Inverse Function",
               "url": "https://www.youtube.com/watch?v=2zeYEx4eTdc",
+              "type": "video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_14",
+      "title": "GMAT Quant Strategy",
+      "weight_percent": 0,
+      "topics": [
+        {
+          "id": "14.1",
+          "title": "How to Approach GMAT Quant",
+          "sources": [
+            {
+              "title": "GMAT Ninja Quant Ep 0: How to Approach GMAT Quant",
+              "url": "https://www.youtube.com/watch?v=CeZ45a2fucI",
               "type": "video"
             }
           ]
