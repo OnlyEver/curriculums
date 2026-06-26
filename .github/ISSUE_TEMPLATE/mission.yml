@@ -2,6 +2,7 @@ name: "🏔️ Mission"
 description: "A large feature build or collection of related work. Parent of stories/tasks."
 title: "Mission - <title>"
 type: "Mission"
+assignees: ["puzhu"]
 labels: ["⛰️ Mission Spec"]
 projects: ["OnlyEver/8"]
 body:

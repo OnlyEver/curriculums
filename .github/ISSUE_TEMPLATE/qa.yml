@@ -2,6 +2,7 @@ name: "🧪 QA test issue"
 description: "Track a round of QA testing against a build."
 title: "QA - <date / build>"
 type: "Task"
+assignees: ["puzhu"]
 labels: ["🧐 QA"]
 projects: ["OnlyEver/1"]
 body:
