@@ -2,6 +2,7 @@ name: "🤔 Spike / Resolve an unknown"
 description: "A time-boxed investigation to resolve an unknown before building. Output is a decision, not code."
 title: "Spike - <question>"
 type: "Spike"
+assignees: ["puzhu"]
 projects: ["OnlyEver/1"]
 body:
   - type: textarea
