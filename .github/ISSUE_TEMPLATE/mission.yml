@@ -1,0 +1,43 @@
+name: "🏔️ Mission"
+description: "A large feature build or collection of related work. Parent of stories/tasks."
+title: "Mission - <title>"
+type: "Mission"
+labels: ["⛰️ Mission Spec"]
+projects: ["OnlyEver/8"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A mission groups related stories/tasks behind one outcome. After creating it, add the
+        child work as **sub-issues** (Issue → "Create sub-issue" or `gh issue create --parent <n>`),
+        not a flat checklist — sub-issues drive the board's progress bar and roll up automatically.
+  - type: textarea
+    id: brief
+    attributes:
+      label: The Mission Brief
+      description: What do you want to do? One or two sentences max.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why do this? How does it help users learn more effectively? What future opportunities does it create?
+    validations:
+      required: true
+  - type: textarea
+    id: mvv
+    attributes:
+      label: Minimum Viable Version (MVV)
+      description: The first shippable version good enough to validate the core value prop.
+      value: |
+        - [ ] Requirement 1
+    validations:
+      required: true
+  - type: textarea
+    id: out_of_scope
+    attributes:
+      label: Out of scope (for now)
+      description: What this mission explicitly will NOT do — keeps agents and stories bounded.
+    validations:
+      required: false
