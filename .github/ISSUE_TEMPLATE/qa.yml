@@ -1,0 +1,32 @@
+name: "🧪 QA test issue"
+description: "Track a round of QA testing against a build."
+title: "QA - <date / build>"
+type: "Task"
+labels: ["🧐 QA"]
+projects: ["OnlyEver/1"]
+body:
+  - type: input
+    id: build
+    attributes:
+      label: Build / test version
+      description: APK / build / commit under test.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: A valid version is available for testing
+        - label: This issue is moved to QA on the board
+        - label: This issue is assigned to the person doing the QA
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks to test
+      description: List the tasks under test. Add sub-items only while a task is in progress; if a task is done, list just the task.
+      value: |
+        - [ ] Task 1
+            - [ ] Sub-item to test
+    validations:
+      required: true

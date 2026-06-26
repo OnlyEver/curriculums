@@ -1,0 +1,36 @@
+name: "🛠️ Task"
+description: "A concrete piece of work that isn't a user-facing feature (refactor, infra, chore, integration)."
+title: "<concise, action-oriented title>"
+type: "Task"
+projects: ["OnlyEver/1"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What and why. Link the parent mission/feature (#) if there is one.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: 1–3 testable criteria. 4+ means split this.
+      value: |
+        - [ ] …
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Files to touch / files to avoid
+      description: Name files/dirs to change and any the agent must NOT touch.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification step
+      description: The command/test/observation that proves it's done.
+    validations:
+      required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Security issue
+    url: https://github.com/OnlyEver/oe-devtools/blob/main/docs/open-loops.md
+    about: For sensitive security matters, talk to Hari directly before opening a public issue.
+  - name: 🧭 Cross-repo / pending decision
+    url: https://github.com/OnlyEver/oe-devtools/blob/main/docs/open-loops.md
+    about: Blocked on an external answer or an unmade decision? It belongs in the open-loops register, not a task.

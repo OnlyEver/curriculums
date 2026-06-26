@@ -1,0 +1,45 @@
+name: "🧩 Feature / User story"
+description: "A user-facing feature or user story (a unit of value within a mission)."
+title: "<Do this> to allow/help <learner/creator/dev team> to <goal/benefit>"
+type: "Feature"
+projects: ["OnlyEver/1"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep it agent-executable: a fresh Claude session should be able to pick this up and finish it
+        without asking you questions. Fill every required field below.
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: What and why, in a few sentences. Link the parent mission (#) if there is one.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: 1–3 testable criteria (Given/When/Then or a checklist). 4+ means split this into multiple issues.
+      value: |
+        - [ ] Given … when … then …
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Files to touch / files to avoid
+      description: Point the agent at the right code. Name files/dirs to change and any it must NOT touch.
+      placeholder: |
+        Touch: lib/foo.dart, lib/widgets/bar.dart
+        Avoid: anything under lib/legacy/ ; do not change the DB schema
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification step
+      description: The exact command/test/observation that proves it's done, so the agent can self-verify and close the loop.
+      placeholder: "flutter test test/foo_test.dart ; manually: open X, expect Y"
+    validations:
+      required: true

@@ -1,0 +1,34 @@
+name: "🤔 Spike / Resolve an unknown"
+description: "A time-boxed investigation to resolve an unknown before building. Output is a decision, not code."
+title: "Spike - <question>"
+type: "Spike"
+projects: ["OnlyEver/1"]
+body:
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does it matter?
+      description: Why is this question important? How does it impact direction, architecture, or UX?
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: The question
+      description: The specific unknown to resolve, phrased so the answer is checkable.
+    validations:
+      required: true
+  - type: input
+    id: timebox
+    attributes:
+      label: Timebox
+      description: How much effort before we stop and decide with what we have (e.g. "2 hours", "1 day").
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output — the decision / answer
+      description: Fill when the spike closes. The conclusion + what we'll do about it. This is the deliverable.
+    validations:
+      required: false

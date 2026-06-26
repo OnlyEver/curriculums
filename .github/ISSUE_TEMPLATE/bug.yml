@@ -1,0 +1,64 @@
+name: "🐞 Bug report"
+description: "Something is broken or behaving unexpectedly."
+title: "<concise description of the bug>"
+type: "Bug"
+projects: ["OnlyEver/1"]
+body:
+  - type: input
+    id: app_version
+    attributes:
+      label: App / environment version
+      description: App version, commit, or environment where the bug appears (leave blank if N/A).
+    validations:
+      required: false
+  - type: textarea
+    id: describe
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: To reproduce
+      value: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Observe the error.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots and recordings
+      description: Attach screenshots or screen recordings if applicable.
+    validations:
+      required: false
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification step
+      description: How will we confirm the fix? The command/test/observation that proves the bug is gone.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "### 👋 Complete before sending for QA (add a comment addressing each)"
+  - type: textarea
+    id: retro
+    attributes:
+      label: Root-cause retro
+      description: Fill once the cause is known — this is how we stop the bug recurring.
+      value: |
+        - **Trigger:** what specifically caused the bug (misunderstood requirement, missing test, race condition, bad data assumption, etc.)
+        - **Owner insight (1–2 lines):** who made the change and — briefly — why it went wrong.
+        - **Prevention step:** one small process, check, or test we could add so similar bugs are less likely.
+    validations:
+      required: false
