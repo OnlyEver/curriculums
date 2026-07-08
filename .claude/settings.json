@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "onlyever": {
+      "source": {
+        "source": "github",
+        "repo": "OnlyEver/oe-devtools"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "oe@onlyever": true
+  }
+}
