@@ -1,0 +1,18 @@
+# macOS Finder metadata. Three of these were tracked (repo root, praxis/,
+# praxis/math/), so they resurfaced as a permanent diff in `git status` and
+# masked real changes to the curriculum JSON.
+.DS_Store
+
+# Never track secrets.
+*.env
+.env
+.env.*
+
+# AI coding tools — local/secret state only.
+# The committed baseline .claude/settings.json IS tracked.
+.claude/settings.local.json
+.claude/.credentials.json
+.cursor/settings.local.json
+.mcp.json
+.mcp.local.json
+.mcp.*.json
