@@ -4,7 +4,6 @@ title: "QA - <date / build>"
 type: "Task"
 assignees: ["puzhu"]
 labels: ["🧐 QA"]
-projects: ["OnlyEver/1"]
 body:
   - type: input
     id: build
@@ -19,7 +18,7 @@ body:
       label: Checklist
       options:
         - label: A valid version is available for testing
-        - label: This issue is moved to QA on the board
+        - label: This issue is parented to its Mission (leaf issues are not on a board)
         - label: This issue is assigned to the person doing the QA
   - type: textarea
     id: tasks
