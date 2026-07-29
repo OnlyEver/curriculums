@@ -3,7 +3,6 @@ description: "Something is broken or behaving unexpectedly."
 title: "<concise description of the bug>"
 type: "Bug"
 assignees: ["puzhu"]
-projects: ["OnlyEver/1"]
 body:
   - type: input
     id: app_version
