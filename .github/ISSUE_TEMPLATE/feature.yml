@@ -3,7 +3,6 @@ description: "A user-facing feature or user story (a unit of value within a miss
 title: "<Do this> to allow/help <learner/creator/dev team> to <goal/benefit>"
 type: "Feature"
 assignees: ["puzhu"]
-projects: ["OnlyEver/1"]
 body:
   - type: markdown
     attributes:
