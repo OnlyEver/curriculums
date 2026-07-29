@@ -3,7 +3,6 @@ description: "A time-boxed investigation to resolve an unknown before building. 
 title: "Spike - <question>"
 type: "Spike"
 assignees: ["puzhu"]
-projects: ["OnlyEver/1"]
 body:
   - type: textarea
     id: why
