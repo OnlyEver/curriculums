@@ -3,7 +3,6 @@ description: "A concrete piece of work that isn't a user-facing feature (refacto
 title: "<concise, action-oriented title>"
 type: "Task"
 assignees: ["puzhu"]
-projects: ["OnlyEver/1"]
 body:
   - type: textarea
     id: context
