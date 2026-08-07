@@ -42,3 +42,40 @@ body:
       description: What this mission explicitly will NOT do — keeps agents and stories bounded.
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **The three sections below are the *living state*.** They start as stubs on purpose — nothing
+        has been tried yet at creation time. Every later session rewrites them **in place**; the body
+        is the state, the comments are the trail. See
+        [github-workflow.md](https://github.com/OnlyEver/oe-devtools/blob/main/orchestration/github-workflow.md).
+  - type: textarea
+    id: current_approach
+    attributes:
+      label: Current approach
+      description: One line — how we are solving this RIGHT NOW. Rewrite whenever it changes; a fresh session reads this first.
+      value: |
+        _Set at the first implementation session._
+    validations:
+      required: false
+  - type: textarea
+    id: status
+    attributes:
+      label: Status / sub-issues
+      description: Which sub-issues are open, closed, or not yet cut. Rewritten each session — state, not a log.
+      value: |
+        _Not started._
+    validations:
+      required: false
+  - type: textarea
+    id: tried_rejected
+    attributes:
+      label: Tried & rejected (+ why)
+      description: "Every abandoned approach and the ROOT CAUSE it failed, so no future session re-attempts a known dead end. The *why* is the load-bearing half. Never delete a row when rewriting the body."
+      value: |
+        | Approach | Why rejected |
+        |---|---|
+        | _None yet._ | |
+    validations:
+      required: false
