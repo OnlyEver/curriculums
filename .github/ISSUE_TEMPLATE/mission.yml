@@ -2,10 +2,15 @@ name: "🏔️ Mission"
 description: "A large feature build or collection of related work. Parent of stories/tasks."
 title: "Mission - <title>"
 type: "Mission"
-assignees: ["puzhu"]
 labels: ["⛰️ Mission Spec"]
 projects: ["OnlyEver/8"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        **Assign this Mission to exactly one person** (Assignees, right-hand sidebar). There is no
+        default: every sub-issue cut from it inherits that one assignee, so an unowned Mission
+        propagates an unowned stream.
   - type: markdown
     attributes:
       value: |
