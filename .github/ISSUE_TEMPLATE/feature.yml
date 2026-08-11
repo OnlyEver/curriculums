@@ -2,8 +2,13 @@ name: "🧩 Feature / User story"
 description: "A user-facing feature or user story (a unit of value within a mission)."
 title: "<Do this> to allow/help <learner/creator/dev team> to <goal/benefit>"
 type: "Feature"
-assignees: ["puzhu"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        **Assign this to its parent Mission's owner** (Assignees, right-hand sidebar) — one person,
+        not two. The assignee is what tells the other person "this one isn't mine", which is the only
+        thing stopping both of you starting it.
   - type: markdown
     attributes:
       value: |
