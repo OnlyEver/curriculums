@@ -2,8 +2,13 @@ name: "🛠️ Task"
 description: "A concrete piece of work that isn't a user-facing feature (refactor, infra, chore, integration)."
 title: "<concise, action-oriented title>"
 type: "Task"
-assignees: ["puzhu"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        **Assign this to its parent Mission's owner** (Assignees, right-hand sidebar) — one person,
+        not two. The assignee is what tells the other person "this one isn't mine", which is the only
+        thing stopping both of you starting it.
   - type: textarea
     id: context
     attributes:
