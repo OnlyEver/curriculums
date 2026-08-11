@@ -2,9 +2,14 @@ name: "🧪 QA test issue"
 description: "Track a round of QA testing against a build."
 title: "QA - <date / build>"
 type: "Task"
-assignees: ["puzhu"]
 labels: ["🧐 QA"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        **Assign this to its parent Mission's owner** (Assignees, right-hand sidebar) — one person,
+        not two. The assignee is what tells the other person "this one isn't mine", which is the only
+        thing stopping both of you starting it.
   - type: input
     id: build
     attributes:
@@ -19,7 +24,7 @@ body:
       options:
         - label: A valid version is available for testing
         - label: This issue is parented to its Mission (leaf issues are not on a board)
-        - label: This issue is assigned to the person doing the QA
+        - label: This issue carries exactly one assignee — its parent Mission's owner
   - type: textarea
     id: tasks
     attributes:
