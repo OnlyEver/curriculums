@@ -2,8 +2,13 @@ name: "🐞 Bug report"
 description: "Something is broken or behaving unexpectedly."
 title: "<concise description of the bug>"
 type: "Bug"
-assignees: ["puzhu"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        **Assign this to its parent Mission's owner** (Assignees, right-hand sidebar) — one person,
+        not two. The assignee is what tells the other person "this one isn't mine", which is the only
+        thing stopping both of you starting it.
   - type: input
     id: app_version
     attributes:
