@@ -6,8 +6,5 @@
         "repo": "OnlyEver/oe-devtools"
       }
     }
-  },
-  "enabledPlugins": {
-    "oe@onlyever": true
   }
 }
