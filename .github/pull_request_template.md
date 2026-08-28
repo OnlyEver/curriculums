@@ -10,6 +10,6 @@ Closes #<!-- issue number — REQUIRED. Closing keywords only fire when this PR 
 
 - [ ] Ran the issue's verification step and it passed
 - [ ] Posted a session log comment on the linked issue (Done / Decisions / Open questions / Next step / Files touched)
-- [ ] A human will review before merge (soft gate — see orchestration/github-workflow.md)
+- [ ] A code review has run and its outcome is recorded on this PR (see orchestration/github-workflow.md)
 
 <!-- Agent PRs: keep the `Co-Authored-By:` trailer in commits for attribution. -->
