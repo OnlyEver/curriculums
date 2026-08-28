@@ -35,11 +35,44 @@ body:
     id: mvv
     attributes:
       label: Minimum Viable Version (MVV)
-      description: The first shippable version good enough to validate the core value prop.
+      description: >-
+        The first shippable version good enough to validate the core value prop. THIS IS THE
+        DONE-TEST — a Mission closes when every bullet here is ticked AND carries a verification
+        note written by someone who did not do the work, not when the sub-issue queue empties.
+        Make each bullet checkable: numbers over adjectives.
       value: |
         - [ ] Requirement 1
     validations:
       required: true
+
+  - type: textarea
+    id: done_when
+    attributes:
+      label: Done when
+      description: >-
+        Anything the MVV bullets do not already say — typically an end-to-end check proving the
+        outcome holds in the running system rather than in the diff. Leave the default if the MVV
+        covers it. (Added 2026-08-25, oe-devtools#499: the form had no field for this while the
+        body skeleton did, so form-created Missions were born with no done-condition at all.)
+      value: |
+        Every MVV bullet above is ticked and verified.
+    validations:
+      required: false
+  - type: textarea
+    id: noted_not_doing
+    attributes:
+      label: Noted, not doing
+      description: >-
+        Facts found while working that are true, ours, and NOT being acted on. Not a backlog —
+        nothing here is work and nothing here moves the Done-when test. A leaf is filed only when a
+        fact BLOCKS an MVV bullet. (Added 2026-08-25, oe-devtools#499: github-workflow.md makes this
+        the mandatory destination for a non-blocking mid-work discovery, so a Mission born without
+        the section leaves a session filing a leaf instead — the exact behaviour the rule prevents.)
+      value: |
+        - _None yet._
+    validations:
+      required: false
+
   - type: textarea
     id: out_of_scope
     attributes:
