@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Assign this to its parent Mission's owner** (Assignees, right-hand sidebar) — one person,
+        **Assign this to one person** (Assignees, right-hand sidebar) — its parent Mission's owner by default, though another owner is fine ([#512](https://github.com/OnlyEver/oe-devtools/issues/512));
         not two. The assignee is what tells the other person "this one isn't mine", which is the only
         thing stopping both of you starting it.
   - type: input
@@ -24,7 +24,7 @@ body:
       options:
         - label: A valid version is available for testing
         - label: This issue is parented to its Mission (leaf issues are not on a board)
-        - label: This issue carries exactly one assignee — its parent Mission's owner
+        - label: This issue carries exactly one assignee
   - type: textarea
     id: tasks
     attributes:
