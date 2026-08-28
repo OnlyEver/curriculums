@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Assign this to its parent Mission's owner** (Assignees, right-hand sidebar) — one person,
+        **Assign this to one person** (Assignees, right-hand sidebar) — its parent Mission's owner by default, though another owner is fine ([#512](https://github.com/OnlyEver/oe-devtools/issues/512));
         not two. The assignee is what tells the other person "this one isn't mine", which is the only
         thing stopping both of you starting it.
   - type: textarea
@@ -20,8 +20,10 @@ body:
     id: acceptance
     attributes:
       label: Acceptance criteria
-      description: 1–3 testable criteria. 4+ means split this.
+      description: 1–3 testable criteria. 4+ means split this. These are the leaf's done-test and therefore Hari's — leave the DRAFT line until he has agreed them, then REPLACE it with a dated line recording his agreement (or recording that he wrote them himself). Never simply delete it; criteria carrying no line are treated as not agreed. See oe-devtools github-workflow.md, section Agreed criteria.
       value: |
+        **DRAFT — not yet agreed with Hari.**
+
         - [ ] …
     validations:
       required: true
