@@ -5,13 +5,21 @@ on:
     types: [closed]
     branches:
       - main
-  # Upserts one named file as it stands on the chosen ref, without a curriculum merge.
+  # Upserts one named file as it stands on main, without a curriculum merge.
   workflow_dispatch:
     inputs:
       file:
         description: "Path of ONE curriculum JSON file, e.g. praxis/math/CURRICULUM-PRAXIS-Core-Math.json"
         required: true
         type: string
+      old_hash:
+        description: "Optional. hash_code the course is stored under now (64 hex). Empty = the file's current hash. A value no course carries CREATES A DUPLICATE course."
+        required: false
+        type: string
+        default: ""
+
+permissions:
+  contents: read
 
 jobs:
   upsertCourse:
@@ -36,6 +44,13 @@ jobs:
             exit 1
           fi
 
+      # A manual run posts to production, so it takes only reviewed content.
+      - name: Require main for manual runs
+        if: github.event_name == 'workflow_dispatch' && github.ref != 'refs/heads/main'
+        run: |
+          echo "::error::Manual runs post to production and must run on main, not $GITHUB_REF."
+          exit 1
+
       - name: Checkout code
         uses: actions/checkout@v4
         with:
@@ -49,6 +64,7 @@ jobs:
           OE_SERVICE_KEY: ${{ secrets.OE_SERVICE_KEY }}
           EVENT_NAME: ${{ github.event_name }}
           FILE_INPUT: ${{ inputs.file }}
+          OLD_HASH_INPUT: ${{ inputs.old_hash }}
         run: |
           FAILED=0
 
@@ -58,7 +74,7 @@ jobs:
             local COURSE_DATA
             COURSE_DATA=$(jq -c . "$FILE")
 
-            if curl --fail-with-body -sS -X POST "$CREATE_COURSE_API" \
+            if curl --fail-with-body -sS --max-time 60 -X POST "$CREATE_COURSE_API" \
               -H "Content-Type: application/json" \
               -H "x-oe-service-key: $OE_SERVICE_KEY" \
               -d "{
@@ -77,8 +93,17 @@ jobs:
           }
 
           if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
-            FILE="$FILE_INPUT"
-            echo "Manual run for: $FILE"
+            echo "Manual run for: $FILE_INPUT"
+
+            # Exactly one tracked file, as a repo-relative path (the form the merge path sends).
+            if ! FILE=$(git --literal-pathspecs ls-files --error-unmatch --full-name -- "$FILE_INPUT"); then
+              echo "::error::Not a tracked file on this ref: $FILE_INPUT"
+              exit 1
+            fi
+            if [ "$(printf '%s\n' "$FILE" | wc -l)" -ne 1 ]; then
+              echo "::error::Path must name exactly one file: $FILE_INPUT"
+              exit 1
+            fi
 
             case "$FILE" in
               *.json) ;;
@@ -93,11 +118,17 @@ jobs:
               exit 1
             fi
 
-            # Re-assert the file as it stands: old = new, so the handler updates the
-            # course already stored under this hash, or creates one if none is.
-            HASH=$(jq -c . "$FILE" | sha256sum | awk '{print $1}')
-            echo "Hash: $HASH"
-            post_course "$FILE" "$HASH" "$HASH"
+            # The handler updates the course stored under old_hash, or creates one if
+            # none is. Default old = new re-asserts the file as it stands.
+            NEW_HASH=$(jq -c . "$FILE" | sha256sum | awk '{print $1}')
+            OLD_HASH="${OLD_HASH_INPUT:-$NEW_HASH}"
+            if ! echo "$OLD_HASH" | grep -q -x -E '[0-9a-f]{64}'; then
+              echo "::error::old_hash must be 64 lowercase hex characters: $OLD_HASH"
+              exit 1
+            fi
+            echo "Old hash: $OLD_HASH"
+            echo "New hash: $NEW_HASH"
+            post_course "$FILE" "$OLD_HASH" "$NEW_HASH"
             exit "$FAILED"
           fi
 
