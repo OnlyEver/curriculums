@@ -5,17 +5,39 @@ on:
     types: [closed]
     branches:
       - main
+  # Upserts one named file as it stands on the chosen ref, without a curriculum merge.
+  workflow_dispatch:
+    inputs:
+      file:
+        description: "Path of ONE curriculum JSON file, e.g. praxis/math/CURRICULUM-PRAXIS-Core-Math.json"
+        required: true
+        type: string
 
 jobs:
   upsertCourse:
     runs-on: ubuntu-latest
 
-    # Run only if the PR was merged into main
-    if: github.event.pull_request.merged == true
+    # Run if the PR was merged into main, or on a manual dispatch
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.merged == true
+
+    env:
+      # app-backend's youtube stack: customDomain api.theonlyever.com, basePath youtube,
+      # httpApi route POST /create-course-from-json (serverless-youtube.yml)
+      CREATE_COURSE_API: https://api.theonlyever.com/youtube/create-course-from-json
 
     steps:
+      # Refuse before any request: a run without the key must not post headerless.
+      - name: Require OE_SERVICE_KEY
+        env:
+          OE_SERVICE_KEY: ${{ secrets.OE_SERVICE_KEY }}
+        run: |
+          if [ -z "$OE_SERVICE_KEY" ]; then
+            echo "::error::Repository secret OE_SERVICE_KEY is empty or not set. Refusing to post to $CREATE_COURSE_API without the x-oe-service-key header."
+            exit 1
+          fi
+
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 2   # IMPORTANT for HEAD^ to work
 
@@ -23,7 +45,62 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Process changed JSON files only and UPSERT
+        env:
+          OE_SERVICE_KEY: ${{ secrets.OE_SERVICE_KEY }}
+          EVENT_NAME: ${{ github.event_name }}
+          FILE_INPUT: ${{ inputs.file }}
         run: |
+          FAILED=0
+
+          # POST one file to the API route. $1 file, $2 old hash, $3 new hash.
+          post_course() {
+            local FILE="$1" OLD_HASH="$2" NEW_HASH="$3"
+            local COURSE_DATA
+            COURSE_DATA=$(jq -c . "$FILE")
+
+            if curl --fail-with-body -sS -X POST "$CREATE_COURSE_API" \
+              -H "Content-Type: application/json" \
+              -H "x-oe-service-key: $OE_SERVICE_KEY" \
+              -d "{
+                \"course_data\": $COURSE_DATA,
+                \"old_hash_code\": \"$OLD_HASH\",
+                \"new_hash_code\": \"$NEW_HASH\",
+                \"file_path\": \"$FILE\"
+              }"; then
+              echo
+              echo "Request succeeded for $FILE"
+            else
+              echo
+              echo "::error::Request failed for $FILE"
+              FAILED=1
+            fi
+          }
+
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            FILE="$FILE_INPUT"
+            echo "Manual run for: $FILE"
+
+            case "$FILE" in
+              *.json) ;;
+              *) echo "::error::Not a .json path: $FILE"; exit 1 ;;
+            esac
+            if echo "$FILE" | grep -q -E '(^|/)curriculum_schema_.*\.json$'; then
+              echo "::error::Schema files are not courses: $FILE"
+              exit 1
+            fi
+            if [ ! -f "$FILE" ]; then
+              echo "::error::No such file on this ref: $FILE"
+              exit 1
+            fi
+
+            # Re-assert the file as it stands: old = new, so the handler updates the
+            # course already stored under this hash, or creates one if none is.
+            HASH=$(jq -c . "$FILE" | sha256sum | awk '{print $1}')
+            echo "Hash: $HASH"
+            post_course "$FILE" "$HASH" "$HASH"
+            exit "$FAILED"
+          fi
+
           echo "Detecting changed JSON files..."
 
           FILES=$(git diff --name-only HEAD^ HEAD \
@@ -63,16 +140,7 @@ jobs:
               continue
             fi
 
-            COURSE_DATA=$(jq -c . "$FILE")
-
-            curl -X POST "${{ secrets.CREATE_COURSE_URL }}" \
-              -H "Content-Type: application/json" \
-              -d "{
-                \"course_data\": $COURSE_DATA,
-                \"old_hash_code\": \"$OLD_HASH\",
-                \"new_hash_code\": \"$NEW_HASH\",
-                \"file_path\": \"$FILE\"
-              }"
-
-            echo "Lambda request sent for $FILE"
+            post_course "$FILE" "$OLD_HASH" "$NEW_HASH"
           done
+
+          exit "$FAILED"
