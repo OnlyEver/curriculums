@@ -20,18 +20,20 @@ body:
     id: acceptance
     attributes:
       label: Acceptance criteria
-      description: 1–3 testable criteria. 4+ means split this. These are the leaf's done-test and therefore Hari's — leave the DRAFT line until he has agreed them, then REPLACE it with a dated line recording his agreement (or recording that he wrote them himself). Never simply delete it; criteria carrying no line are treated as not agreed. See oe-devtools github-workflow.md, section Agreed criteria.
+      description: 1–3 testable criteria. 4+ means split this. These are the leaf's done-test and therefore Hari's — leave the DRAFT line until he has agreed them, then REPLACE it with a dated line recording his agreement (or recording that he wrote them himself). Never simply delete it; criteria carrying no line are treated as not agreed. End with the Out of scope line — what this issue will NOT do, or None; it is agreed with the criteria. See oe-devtools orchestration/github-workflow/body-contract.md, section Agreed criteria.
       value: |
         **DRAFT — not yet agreed with Hari.**
 
         - [ ] …
+
+        **Out of scope:** …
     validations:
       required: true
   - type: textarea
     id: files
     attributes:
       label: Files to touch / files to avoid
-      description: Name files/dirs to change and any the agent must NOT touch.
+      description: Name files/dirs to change and any the agent must NOT touch — plus an existing file or function to copy the pattern from, if one exists.
     validations:
       required: true
   - type: textarea
